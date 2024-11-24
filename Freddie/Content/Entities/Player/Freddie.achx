@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimationChainArraySave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileRelativeTextures>true</FileRelativeTextures>
+  <TimeMeasurementUnit>Undefined</TimeMeasurementUnit>
+  <CoordinateType>Pixel</CoordinateType>
+  <AnimationChain>
+    <Name>IdleRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>1.5</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.4</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.4</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>1.5</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.4</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>IdleLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>1.5</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.4</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.4</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>1.5</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.4</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>WalkRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>WalkLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>32</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>RunRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>RunLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>64</TopCoordinate>
+      <BottomCoordinate>96</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>RunJumpRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>RunJumpLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>KickRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>128</TopCoordinate>
+      <BottomCoordinate>160</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>KickLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>128</TopCoordinate>
+      <BottomCoordinate>160</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>SlideRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>128</TopCoordinate>
+      <BottomCoordinate>160</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>SlideLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>128</TopCoordinate>
+      <BottomCoordinate>160</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>ClimbRear</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>128</TopCoordinate>
+      <BottomCoordinate>160</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>128</TopCoordinate>
+      <BottomCoordinate>160</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>Victory</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>128</TopCoordinate>
+      <BottomCoordinate>160</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>DuckRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>96</TopCoordinate>
+      <BottomCoordinate>128</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>DuckLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>96</TopCoordinate>
+      <BottomCoordinate>128</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>LookUpRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>LookUpLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>32</TopCoordinate>
+      <BottomCoordinate>64</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>FallRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>96</TopCoordinate>
+      <BottomCoordinate>128</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>FallLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>96</TopCoordinate>
+      <BottomCoordinate>128</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>JumpRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>96</TopCoordinate>
+      <BottomCoordinate>128</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>JumpLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>96</TopCoordinate>
+      <BottomCoordinate>128</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>SkidRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>96</TopCoordinate>
+      <BottomCoordinate>128</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>SkidLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>96</TopCoordinate>
+      <BottomCoordinate>128</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>SwimRight</Name>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>SwimLeft</Name>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipHorizontal>true</FlipHorizontal>
+      <TextureName>../../images/freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>160</TopCoordinate>
+      <BottomCoordinate>192</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+</AnimationChainArraySave>

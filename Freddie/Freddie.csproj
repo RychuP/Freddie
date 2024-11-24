@@ -23,9 +23,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>FRBeefcakeSpritesheet</Name>
     </None>
-    <None Include="Content\Entities\Player\PlatformerAnimations.achx">
+    <None Include="Content\Entities\Player\Freddie.achx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>PlatformerAnimations</Name>
+      <Name>Freddie</Name>
     </None>
     <None Include="Content\Entities\Player\PlatformerValuesStatic.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -318,6 +318,10 @@
     <None Include="Content\GumProject\UISpriteSheet.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>UISpriteSheet</Name>
+    </None>
+    <None Include="Content\images\freddie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>freddie</Name>
     </None>
     <None Include="Content\Screens\Level1\Level1Map.tmx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

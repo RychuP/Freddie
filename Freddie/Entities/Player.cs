@@ -9,34 +9,78 @@ using FlatRedBall.Graphics.Animation;
 using FlatRedBall.Graphics.Particle;
 using FlatRedBall.Math.Geometry;
 using Microsoft.Xna.Framework;
+using Keys = Microsoft.Xna.Framework.Input.Keys;
 
-namespace Freddie.Entities
+namespace Freddie.Entities;
+
+public partial class Player
 {
-    public partial class Player
+    IPressableInput RunInput;
+
+    public bool UpInputIsDown => VerticalInput.Value > 0;
+
+    public bool DownInputIsDown => VerticalInput.Value < 0;
+
+    public bool IsSkidding => Math.Sign(XVelocity) != Math.Sign(HorizontalInput.Value) &&
+                RunInput.IsDown;
+
+    private void CustomInitialize()
     {
-        /// <summary>
-        /// Initialization logic which is executed only one time for this Entity (unless the Entity is pooled).
-        /// This method is called when the Entity is added to managers. Entities which are instantiated but not
-        /// added to managers will not have this method called.
-        /// </summary>
-        private void CustomInitialize()
-        {
-            
-        }
+        
+    }
 
-        private void CustomActivity()
+    partial void CustomInitializePlatformerInput()
+    {
+        if (InputDevice is Keyboard keyboard)
         {
-            
+            RunInput = keyboard.GetKey(Keys.LeftShift);
         }
-
-        private void CustomDestroy()
+        else if (InputDevice is Xbox360GamePad gamepad)
         {
-            
+            RunInput = gamepad.GetButton(Xbox360GamePad.Button.RightTrigger);
         }
+    }
 
-        private static void CustomLoadStaticContent(string contentManagerName)
+    private void CustomActivity()
+    {
+        InputActivity();
+    }
+
+    private void CustomDestroy()
+    {
+        
+    }
+
+    private static void CustomLoadStaticContent(string contentManagerName)
+    {
+        
+    }
+
+    void InputActivity()
+    {
+        if (!CurrentMovement.CanClimb)
         {
-            
+            if (VerticalInput.Value < 0)
+            {
+                GroundMovement = PlatformerValuesStatic["Ducking"];
+            }
+            else if (RunInput.IsDown)
+            {
+                GroundMovement = PlatformerValuesStatic["Running"];
+                AirMovement = PlatformerValuesStatic["RunningAir"];
+            }
+            else
+            {
+                GroundMovement = PlatformerValuesStatic["Ground"];
+                AirMovement = PlatformerValuesStatic["Air"];
+            }
+        }
+        else
+        {
+            if (VerticalInput.Value < 0 && IsOnGround)
+            {
+                GroundMovement = PlatformerValuesStatic["Ground"];
+            }
         }
     }
 }

@@ -31,24 +31,6 @@
   ],
   "NamedObjects": [
     {
-      "InstanceName": "PlayerList",
-      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
-      "Properties": [
-        {
-          "Name": "AssociateWithFactory",
-          "Value": true,
-          "Type": "bool"
-        }
-      ],
-      "InstructionSaves": [],
-      "SourceType": 2,
-      "SourceFile": "PositionedObjectList (Generic)",
-      "SourceClassGenericType": "Entities\\Player",
-      "ExposedInDerived": true,
-      "AttachToContainer": true,
-      "GenerateTimedEmit": true
-    },
-    {
       "InstanceName": "Map",
       "SourceClassType": "FlatRedBall.TileGraphics.LayeredTileMap",
       "Properties": [
@@ -150,6 +132,41 @@
       "SetByDerived": true,
       "AttachToContainer": true,
       "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "PlayerList",
+      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "PositionedObjectList (Generic)",
+      "SourceClassGenericType": "Entities\\Player",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "Player",
+          "SourceClassType": "Entities\\Player",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "bool"
+            }
+          ],
+          "InstructionSaves": [],
+          "SourceType": 1,
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        }
+      ]
     },
     {
       "InstanceName": "PlayerVsCloudCollision",
@@ -254,7 +271,7 @@
       "GenerateTimedEmit": true
     },
     {
-      "InstanceName": "CameraControllingEntityInstance",
+      "InstanceName": "MainCamera",
       "SourceClassType": "FlatRedBall.Entities.CameraControllingEntity",
       "Properties": [
         {
@@ -266,14 +283,14 @@
       "InstructionSaves": [
         {
           "Type": "string",
-          "Member": "Targets",
-          "Value": "PlayerList",
+          "Member": "Map",
+          "Value": "Map",
           "Time": 0.0
         },
         {
           "Type": "string",
-          "Member": "Map",
-          "Value": "Map",
+          "Member": "Targets",
+          "Value": "PlayerList",
           "Time": 0.0
         }
       ],

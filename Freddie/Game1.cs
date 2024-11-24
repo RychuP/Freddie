@@ -32,6 +32,8 @@ namespace Freddie
 #if  ANDROID || IOS
             graphics.IsFullScreen = true;
 #elif WINDOWS || DESKTOP_GL
+            graphics.PreferredBackBufferWidth = 800;
+            graphics.PreferredBackBufferHeight = 600;
             IsMouseVisible = true;
 #endif
         }
