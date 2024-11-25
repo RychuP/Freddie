@@ -42,7 +42,7 @@
         }
       ],
       "Name": "Y",
-      "DefaultValue": -64.0,
+      "DefaultValue": -264.0,
       "SetByDerived": true
     },
     {
@@ -243,7 +243,7 @@
         {
           "Type": "float",
           "Member": "Y",
-          "Value": -5.0,
+          "Value": -4.0,
           "Time": 0.0
         }
       ],

@@ -52,6 +52,12 @@
           "Member": "ShiftMapToMoveGameplayLayerToZ0",
           "Value": true,
           "Time": 0.0
+        },
+        {
+          "Type": "float",
+          "Member": "Z",
+          "Value": -3.0,
+          "Time": 0.0
         }
       ],
       "SourceType": 2,

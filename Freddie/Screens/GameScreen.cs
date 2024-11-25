@@ -14,31 +14,27 @@ using FlatRedBall.Math.Geometry;
 using FlatRedBall.Localization;
 using Microsoft.Xna.Framework;
 
+namespace Freddie.Screens;
 
-
-
-namespace Freddie.Screens
+public partial class GameScreen
 {
-    public partial class GameScreen
+    private void CustomInitialize()
     {
-        private void CustomInitialize()
-        {
-            
-        }
+        
+    }
 
-        private void CustomActivity(bool firstTimeCalled)
-        {
-            
-        }
+    private void CustomActivity(bool firstTimeCalled)
+    {
+        
+    }
 
-        private void CustomDestroy()
-        {
-            
-        }
+    private void CustomDestroy()
+    {
+        
+    }
 
-        private static void CustomLoadStaticContent(string contentManagerName)
-        {
-            
-        }
+    private static void CustomLoadStaticContent(string contentManagerName)
+    {
+        
     }
 }

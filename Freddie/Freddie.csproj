@@ -16,13 +16,11 @@
   <ItemGroup>
     <None Remove="Icon.ico" />
     <None Remove="Icon.bmp" />
+    <EmbeddedResource Remove="Content\images\**" />
     <None Remove="**\*.glsj" />
     <None Remove="**\*.glej" />
     <None Remove="**\*.gluj" />
-    <None Include="Content\Entities\Player\FRBeefcakeSpritesheet.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>FRBeefcakeSpritesheet</Name>
-    </None>
+    <None Remove="Content\images\**" />
     <None Include="Content\Entities\Player\Freddie.achx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Freddie</Name>
@@ -31,13 +29,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>PlatformerValuesStatic</Name>
     </None>
-    <None Include="Content\FrbVisualTiles.png">
+    <None Include="Content\Freddie.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>FrbVisualTiles</Name>
+      <Name>Freddie</Name>
     </None>
-    <None Include="Content\FrbVisualTiles.tsx">
+    <None Include="Content\Freddie.tsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>FrbVisualTiles</Name>
+      <Name>Freddie</Name>
     </None>
     <None Include="Content\GumProject\Components\Controls\ButtonClose.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -318,10 +316,6 @@
     <None Include="Content\GumProject\UISpriteSheet.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>UISpriteSheet</Name>
-    </None>
-    <None Include="Content\images\freddie.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>freddie</Name>
     </None>
     <None Include="Content\Screens\Level1\Level1Map.tmx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
