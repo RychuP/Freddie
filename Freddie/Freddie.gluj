@@ -79,7 +79,8 @@
     {
       "Name": "PlatformerValues",
       "CsvFilesUsingThis": [
-        "Entities/Player/PlatformerValuesStatic.csv"
+        "Entities/Player/PlatformerValuesStatic.csv",
+        "Entities/Enemies/Enemy/PlatformerValuesStatic.csv"
       ],
       "RequiredProperties": [],
       "GenerateCode": true
@@ -98,7 +99,31 @@
   ],
   "EntityReferences": [
     {
+      "Name": "Entities\\Checkpoints\\Door"
+    },
+    {
+      "Name": "Entities\\Collectables\\Coin"
+    },
+    {
+      "Name": "Entities\\Collectables\\Collectable"
+    },
+    {
+      "Name": "Entities\\Enemies\\Enemy"
+    },
+    {
       "Name": "Entities\\Player"
+    },
+    {
+      "Name": "Entities\\Projectiles\\Ball"
+    },
+    {
+      "Name": "Entities\\Projectiles\\Fire"
+    },
+    {
+      "Name": "Entities\\Projectiles\\Projectile"
+    },
+    {
+      "Name": "Entities\\TestCollision"
     }
   ],
   "Bookmarks": [],

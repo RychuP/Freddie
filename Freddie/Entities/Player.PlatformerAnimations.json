@@ -34,7 +34,7 @@
       "MaxSpeedYRatioMultiplier": null,
       "OnGroundRequirement": true,
       "MovementName": null,
-      "CustomCondition": "UpInputIsDown",
+      "CustomCondition": "UpInputIsApplied",
       "AnimationSpeedAssignment": 0,
       "Notes": null
     },
@@ -110,7 +110,7 @@
       "MaxSpeedYRatioMultiplier": null,
       "OnGroundRequirement": true,
       "MovementName": null,
-      "CustomCondition": "DownInputIsDown",
+      "CustomCondition": "DownInputIsApplied",
       "AnimationSpeedAssignment": 0,
       "Notes": null
     },

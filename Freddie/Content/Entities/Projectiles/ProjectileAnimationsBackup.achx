@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimationChainArraySave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileRelativeTextures>true</FileRelativeTextures>
+  <TimeMeasurementUnit>Undefined</TimeMeasurementUnit>
+  <CoordinateType>Pixel</CoordinateType>
+  <AnimationChain>
+    <Name>VerticalFire</Name>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>336</TopCoordinate>
+      <BottomCoordinate>352</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>16</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0.5833335</X>
+            <Y>-4.666664</Y>
+            <Z>0</Z>
+            <ScaleX>2</ScaleX>
+            <ScaleY>2</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>16</LeftCoordinate>
+      <RightCoordinate>32</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>2</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0.499999881</X>
+            <Y>-1.41666663</Y>
+            <Z>0</Z>
+            <ScaleX>3</ScaleX>
+            <ScaleY>3</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>32</LeftCoordinate>
+      <RightCoordinate>48</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>4</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0.50000006</X>
+            <Y>1.58333325</Y>
+            <Z>0</Z>
+            <ScaleX>4</ScaleX>
+            <ScaleY>4</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>48</LeftCoordinate>
+      <RightCoordinate>64</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>6</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0.9166665</X>
+            <Y>4.66666746</Y>
+            <Z>0</Z>
+            <ScaleX>5</ScaleX>
+            <ScaleY>5</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>64</LeftCoordinate>
+      <RightCoordinate>80</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>8</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0.5000001</X>
+            <Y>7.583334</Y>
+            <Z>0</Z>
+            <ScaleX>6</ScaleX>
+            <ScaleY>5</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>80</LeftCoordinate>
+      <RightCoordinate>96</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>10</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>-0.0833333</X>
+            <Y>9.750001</Y>
+            <Z>0</Z>
+            <ScaleX>7</ScaleX>
+            <ScaleY>6</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>96</LeftCoordinate>
+      <RightCoordinate>112</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>12</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>12</Y>
+            <Z>0</Z>
+            <ScaleX>7</ScaleX>
+            <ScaleY>6</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>112</LeftCoordinate>
+      <RightCoordinate>128</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>14</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+            <ScaleX>7</ScaleX>
+            <ScaleY>6</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>128</LeftCoordinate>
+      <RightCoordinate>144</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>16</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>17.375</Y>
+            <Z>0</Z>
+            <ScaleX>7</ScaleX>
+            <ScaleY>4</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>144</LeftCoordinate>
+      <RightCoordinate>160</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>18</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>18</Y>
+            <Z>0</Z>
+            <ScaleX>0</ScaleX>
+            <ScaleY>0</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>160</LeftCoordinate>
+      <RightCoordinate>176</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>20</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>20</Y>
+            <Z>0</Z>
+            <ScaleX>0</ScaleX>
+            <ScaleY>0</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>176</LeftCoordinate>
+      <RightCoordinate>192</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>22</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>22</Y>
+            <Z>0</Z>
+            <ScaleX>0</ScaleX>
+            <ScaleY>0</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>192</LeftCoordinate>
+      <RightCoordinate>208</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>24</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>24</Y>
+            <Z>0</Z>
+            <ScaleX>0</ScaleX>
+            <ScaleY>0</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>208</LeftCoordinate>
+      <RightCoordinate>224</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>26</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>26</Y>
+            <Z>0</Z>
+            <ScaleX>0</ScaleX>
+            <ScaleY>0</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddie.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>224</LeftCoordinate>
+      <RightCoordinate>240</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>368</BottomCoordinate>
+      <RelativeY>28</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>28</Y>
+            <Z>0</Z>
+            <ScaleX>0</ScaleX>
+            <ScaleY>0</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+</AnimationChainArraySave>

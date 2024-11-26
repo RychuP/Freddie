@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="75" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="75" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="14">
  <tileset firstgid="1" source="../../Freddie.tsx"/>
- <tileset firstgid="441" source="../../StandardTileset.tsx"/>
+ <tileset firstgid="481" source="../../StandardTileset.tsx"/>
  <layer id="4" name="Sky" width="75" height="27" tintcolor="#ffffff">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAACu3DMQ0AAAwDoE5q/Zuoin2Q0Euqqqqqqqqqqr4f3L/wxqQfAAA=
@@ -19,13 +19,34 @@
  </layer>
  <layer id="2" name="Ground" width="75" height="27" tintcolor="#ffffff">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu2WWw6CMBRE9RNYC6JL4LUEFZegcf/f3ia3yUiQTPigEOckE8KF0vRAadvjQRDU5qmVKwq54pErHrnikSseueKRKx654pErHrnikSseueKRKx654pErHrniSe2qtL5PlqcfQ16QakPvMbWrq/V9s1wsg+XhafzYgcPoM5W/1K4i0Rl6a8BbyNmv3//cFYLeMKkcRdZwVW7sv7OUNVyFPt5y9UVmz8knnrXFeb6EuXEUXs/dQTEzXlz7cb6Feu/r2d7nYXSF30Tu56XvcXDvU8F9GbSrYb1qR/Vhor5H6tEeBtNPrEXMvd2o3rivX233kjCWD3/rejykHwAA
+   H4sIAAAAAAAACu2WWw6CMBBF9VNYCz6WUIElqLAEjfv/dppMk6sBcsMHhXhPckN4pJMeKNN6vxMEwTzVckUhVzxyxSNXPHLFI1c8csUjVzxyxSNXPHLFI1c8csUjVzxyxSNXPLldVVb7aHn6MeYFOa3oPeZ2dbPad8vF0lmukN7SgMPkM5e/3K4SydmQt96PZ7//+HNXCHrD5HKUWMJVtbL/zlyWcBVrvOXqi4ONUwyMtcZ1PoepeZR+vXAH5cR8sffjeovXW+9nW1+HyRV+E4WfV77Hwb3PWM8O0LdwvAA97bfO1gg/exhM63PE/t2NPN/Cc83IGGN1tpI4lw+lwvqfpB8AAA==
   </data>
  </layer>
- <layer id="1" name="Game" width="75" height="27" visible="0" opacity="0.5" tintcolor="#ffffff">
+ <layer id="1" name="GameplayLayer" width="75" height="27" visible="0" opacity="0.5" tintcolor="#ffffff">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu3UQQ6AIAwAQfn/i/idB+KFBFiisTXuJD1T9tBaDgG1tNGarThbcbbibMXZirMVZyvOVpytOFtxtuJsxdmKsxVnKy661fX+bLKI3oe0ytIvulW/h632ZGvU7/X1N95gK85W3FP/GN2VTPfmrtkfdu7rn1o5bE5dXhj6pB8AAA==
+   H4sIAAAAAAAACu3UQQ6AIAwAQfn/K/mJB+KFBFiisTXuJD1T9tBaDgG1tNGarThbcbbibMXZirMVZyvOVpytOFtxtuJsxdmKsxVnKy661fX+bLKI3oe0ytIvulW/h632ZGvU7/X1N95gK85W3FP/GN2VTPfmrtkfdm7sn1o5bE6uQdCApB8AAA==
   </data>
  </layer>
- <objectgroup id="1" name="Objects"/>
+ <objectgroup id="1" name="ObjectsLayer">
+  <object id="3" gid="578" x="112" y="384" width="16" height="16"/>
+  <object id="4" gid="578" x="144" y="384" width="16" height="16"/>
+  <object id="8" gid="578" x="176" y="384" width="16" height="16"/>
+  <object id="9" gid="545" x="48" y="416" width="16" height="16"/>
+  <object id="10" gid="582" x="208" y="416" width="16" height="16"/>
+  <object id="11" gid="582" x="224" y="416" width="16" height="16">
+   <properties>
+    <property name="StartDelay" type="float" value="0.3"/>
+   </properties>
+  </object>
+  <object id="12" gid="582" x="240" y="416" width="16" height="16">
+   <properties>
+    <property name="StartDelay" type="float" value="0.9"/>
+   </properties>
+  </object>
+  <object id="13" gid="582" x="256" y="416" width="16" height="16">
+   <properties>
+    <property name="StartDelay" type="float" value="1.2"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

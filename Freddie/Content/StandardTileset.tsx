@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.0" name="TiledIcons" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+<tileset version="1.10" tiledversion="1.11.0" name="TiledIcons" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
  <image source="StandardTilesetIcons.png" width="512" height="512"/>
- <tile id="0" class="SolidCollision"/>
- <tile id="1" class="SolidCollision"/>
- <tile id="2" class="SolidCollision"/>
- <tile id="3" class="CloudCollision"/>
- <tile id="4" class="CloudCollision"/>
- <tile id="5" class="CloudCollision"/>
- <tile id="6" class="OneWayCollision"/>
- <tile id="32" class="Water"/>
- <tile id="33" class="BreakableCollision"/>
- <tile id="34" class="IceCollision"/>
- <tile id="64" class="Door"/>
- <tile id="96" class="Ladder"/>
+ <tile id="0" type="SolidCollision"/>
+ <tile id="1" type="SolidCollision"/>
+ <tile id="2" type="SolidCollision"/>
+ <tile id="3" type="CloudCollision"/>
+ <tile id="4" type="CloudCollision"/>
+ <tile id="5" type="CloudCollision"/>
+ <tile id="6" type="OneWayCollision"/>
+ <tile id="32" type="Water"/>
+ <tile id="33" type="BreakableCollision"/>
+ <tile id="34" type="IceCollision"/>
+ <tile id="64" type="Door"/>
+ <tile id="96" type="Ladder"/>
+ <tile id="97" type="Coin"/>
+ <tile id="101" type="Fire">
+  <properties>
+   <property name="StartDelay" type="float" value="0"/>
+  </properties>
+ </tile>
  <tile id="256">
   <properties>
    <property name="MatchType" value="Empty"/>

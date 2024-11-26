@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.0" name="Freddie" tilewidth="16" tileheight="16" tilecount="440" columns="20">
- <image source="Freddie.png" width="320" height="352"/>
+ <image source="FreddieTileset.png" width="320" height="352"/>
  <tile id="301" probability="0.5"/>
  <tile id="343" probability="0.2"/>
  <tile id="344" probability="0.2"/>

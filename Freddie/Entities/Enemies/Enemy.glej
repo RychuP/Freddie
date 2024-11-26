@@ -3,20 +3,13 @@
     "GLUE"
   ],
   "Source": "GLUE",
-  "CreatedByOtherEntities": true,
   "Is2D": true,
   "ReferencedFiles": [
     {
-      "Name": "Entities/Player/PlatformerValuesStatic.csv",
+      "Name": "Entities/Enemies/Enemy/PlatformerValuesStatic.csv",
       "IsSharedStatic": true,
       "HasPublicProperty": true,
       "CreatesDictionary": true,
-      "ProjectsToExcludeFrom": []
-    },
-    {
-      "Name": "Entities/Player/PlayerAnimations.achx",
-      "IsSharedStatic": true,
-      "RuntimeType": "FlatRedBall.Graphics.Animation.AnimationChainList",
       "ProjectsToExcludeFrom": []
     }
   ],
@@ -30,7 +23,6 @@
         }
       ],
       "Name": "X",
-      "DefaultValue": 64.0,
       "SetByDerived": true
     },
     {
@@ -42,7 +34,6 @@
         }
       ],
       "Name": "Y",
-      "DefaultValue": -264.0,
       "SetByDerived": true
     },
     {
@@ -70,7 +61,7 @@
         }
       ],
       "Name": "TeamIndex",
-      "DefaultValue": 0,
+      "DefaultValue": 1,
       "SetByDerived": true
     },
     {
@@ -123,6 +114,53 @@
       "Properties": [
         {
           "Name": "Type",
+          "Value": "double",
+          "Type": "String"
+        },
+        {
+          "Name": "CreatesProperties",
+          "Value": true,
+          "Type": "bool"
+        },
+        {
+          "Name": "Category",
+          "Value": "Damage Dealing",
+          "Type": "String"
+        }
+      ],
+      "Name": "SecondsBetweenDamage",
+      "DefaultValue": 0.0,
+      "SetByDerived": true,
+      "Summary": "The number of seconds between dealing damage to the same object. 0 means every frame.",
+      "Category": "Damage Dealing"
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "decimal",
+          "Type": "String"
+        },
+        {
+          "Name": "CreatesProperties",
+          "Value": true,
+          "Type": "bool"
+        },
+        {
+          "Name": "Category",
+          "Value": "Damage Dealing",
+          "Type": "String"
+        }
+      ],
+      "Name": "DamageToDeal",
+      "DefaultValue": 10.0,
+      "SetByDerived": true,
+      "Category": "Damage Dealing"
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
           "Value": "Freddie.DataTypes.PlatformerValues",
           "Type": "String"
         }
@@ -170,9 +208,19 @@
       "Type": "bool"
     },
     {
+      "Name": "ImplementsIDamageArea",
+      "Value": true,
+      "Type": "bool"
+    },
+    {
       "Name": "IsPlatformer",
       "Value": true,
       "Type": "bool"
+    },
+    {
+      "Name": "InputDevice",
+      "Value": 1,
+      "Type": "int"
     }
   ],
   "NamedObjects": [
@@ -188,18 +236,6 @@
       ],
       "InstructionSaves": [
         {
-          "Type": "AnimationChainList",
-          "Member": "AnimationChains",
-          "Value": "PlayerAnimations",
-          "Time": 0.0
-        },
-        {
-          "Type": "string",
-          "Member": "CurrentChainName",
-          "Value": "FallRight",
-          "Time": 0.0
-        },
-        {
           "Type": "float",
           "Member": "TextureScale",
           "Value": 1.0,
@@ -208,6 +244,7 @@
       ],
       "SourceType": 2,
       "SourceFile": "Sprite",
+      "SetByDerived": true,
       "AttachToContainer": true,
       "GenerateTimedEmit": true
     },
@@ -225,25 +262,13 @@
         {
           "Type": "float",
           "Member": "Height",
-          "Value": 20.0,
-          "Time": 0.0
-        },
-        {
-          "Type": "bool",
-          "Member": "Visible",
-          "Value": false,
+          "Value": 32.0,
           "Time": 0.0
         },
         {
           "Type": "float",
           "Member": "Width",
-          "Value": 12.0,
-          "Time": 0.0
-        },
-        {
-          "Type": "float",
-          "Member": "Y",
-          "Value": -4.0,
+          "Value": 32.0,
           "Time": 0.0
         }
       ],
@@ -254,6 +279,7 @@
       "GenerateTimedEmit": true
     }
   ],
-  "Name": "Entities\\Player",
-  "CustomClassesForExport": []
+  "Name": "Entities\\Enemies\\Enemy",
+  "CustomClassesForExport": [],
+  "IsAbstract": true
 }

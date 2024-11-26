@@ -17,9 +17,9 @@ public partial class Player
 {
     IPressableInput RunInput;
 
-    public bool UpInputIsDown => VerticalInput.Value > 0;
+    public bool UpInputIsApplied => VerticalInput.Value > 0;
 
-    public bool DownInputIsDown => VerticalInput.Value < 0;
+    public bool DownInputIsApplied => VerticalInput.Value < 0;
 
     public bool IsSkidding => Math.Sign(XVelocity) != Math.Sign(HorizontalInput.Value) &&
                 RunInput.IsDown;
@@ -60,7 +60,7 @@ public partial class Player
     {
         if (!CurrentMovement.CanClimb)
         {
-            if (VerticalInput.Value < 0)
+            if (DownInputIsApplied)
             {
                 GroundMovement = PlatformerValuesStatic["Ducking"];
             }
@@ -77,7 +77,7 @@ public partial class Player
         }
         else
         {
-            if (VerticalInput.Value < 0 && IsOnGround)
+            if (DownInputIsApplied && IsOnGround)
             {
                 GroundMovement = PlatformerValuesStatic["Ground"];
             }
