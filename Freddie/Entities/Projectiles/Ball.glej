@@ -92,6 +92,18 @@
           "Member": "TextureScale",
           "Value": 1.0,
           "Time": 0.0
+        },
+        {
+          "Type": "AnimationChainList",
+          "Member": "AnimationChains",
+          "Value": "ProjectileAnimations",
+          "Time": 0.0
+        },
+        {
+          "Type": "string",
+          "Member": "CurrentChainName",
+          "Value": "Ball",
+          "Time": 0.0
         }
       ],
       "SourceType": 2,
@@ -99,6 +111,30 @@
       "AttachToContainer": true,
       "GenerateTimedEmit": true,
       "DefinedByBase": true
+    },
+    {
+      "InstanceName": "CircleInstance",
+      "SourceClassType": "FlatRedBall.Math.Geometry.Circle",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [
+        {
+          "Type": "float",
+          "Member": "Radius",
+          "Value": 8.0,
+          "Time": 0.0
+        }
+      ],
+      "SourceType": 2,
+      "SourceFile": "Circle",
+      "HasPublicProperty": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
     }
   ],
   "Name": "Entities\\Projectiles\\Ball",

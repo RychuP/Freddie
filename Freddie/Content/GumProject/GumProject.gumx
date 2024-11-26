@@ -177,6 +177,11 @@
     <LinkType>ReferenceOriginal</LinkType>
   </ComponentReference>
   <ComponentReference>
+    <Name>Counter</Name>
+    <ElementType>Component</ElementType>
+    <LinkType>ReferenceOriginal</LinkType>
+  </ComponentReference>
+  <ComponentReference>
     <Name>Elements/CautionLines</Name>
     <ElementType>Component</ElementType>
     <LinkType>ReferenceOriginal</LinkType>
@@ -218,6 +223,11 @@
   </ComponentReference>
   <ComponentReference>
     <Name>Elements/VerticalLines</Name>
+    <ElementType>Component</ElementType>
+    <LinkType>ReferenceOriginal</LinkType>
+  </ComponentReference>
+  <ComponentReference>
+    <Name>LifeIcon</Name>
     <ElementType>Component</ElementType>
     <LinkType>ReferenceOriginal</LinkType>
   </ComponentReference>

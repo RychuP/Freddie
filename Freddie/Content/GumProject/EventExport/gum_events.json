@@ -1,0 +1,524 @@
+{
+  "UserEvents": {
+    "rysza": [
+      {
+        "NewName": "Heart",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-11-26T17:19:58.429749Z"
+      },
+      {
+        "NewName": "ColorCategory",
+        "OldName": "ColorCategory",
+        "ElementType": "Components",
+        "EventType": 4,
+        "TimestampUtc": "2024-11-26T17:24:49.7218349Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeMeter",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:32:27.121776Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:32:52.1611798Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:33:28.1738456Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartInstance2",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:33:31.7259096Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartInstance3",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:33:35.3681089Z"
+      },
+      {
+        "NewName": "ContentCategory",
+        "OldName": "ColorCategory",
+        "ElementType": "Components",
+        "EventType": 4,
+        "TimestampUtc": "2024-11-26T17:41:46.0569502Z"
+      },
+      {
+        "NewName": "Full",
+        "OldName": "Red",
+        "ElementType": "Components",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-26T17:41:53.8718906Z"
+      },
+      {
+        "NewName": "Empty",
+        "OldName": "Grey",
+        "ElementType": "Components",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-26T17:42:00.0393514Z"
+      },
+      {
+        "NewName": "StateCategory",
+        "OldName": "ContentCategory",
+        "ElementType": "Components",
+        "EventType": 4,
+        "TimestampUtc": "2024-11-26T17:43:41.2225735Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Heart HeartInstance3 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T17:44:05.9220729Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Heart HeartInstance2 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T17:44:09.4870085Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Heart HeartInstance1 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T17:46:11.6194611Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Heart HeartInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T17:46:17.5405977Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:46:31.4803751Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:46:33.5104185Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartInstance2",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:46:37.4707167Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartInstance3",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:46:40.3382289Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Heart",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2024-11-26T17:47:14.405467Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Heart HeartInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T17:47:22.6471582Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Heart HeartInstance1 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T17:47:25.6948024Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Heart HeartInstance2 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T17:47:30.766987Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Heart HeartInstance3 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T17:47:34.926238Z"
+      },
+      {
+        "NewName": "HeartIcon",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-11-26T17:47:46.7672803Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HeartIcon",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2024-11-26T17:49:40.7107382Z"
+      },
+      {
+        "NewName": "HeartIcon",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-11-26T17:49:49.307623Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartIconInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:50:31.5312658Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartIconInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:50:34.1196477Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartIconInstance2",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:50:36.0892406Z"
+      },
+      {
+        "NewName": "GameScreenGum.HeartIconInstance3",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T17:50:37.8240964Z"
+      },
+      {
+        "NewName": "GameScreenGum.IconInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:00:13.1573616Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.HeartIcon HeartIconInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:01:06.3194878Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.HeartIcon HeartIconInstance1 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:01:10.7690119Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.HeartIcon HeartIconInstance2 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:01:12.6149707Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.HeartIcon HeartIconInstance3 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:01:14.8419466Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Elements/Icon IconInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:01:17.9274531Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HeartIcon",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2024-11-26T18:01:32.3099399Z"
+      },
+      {
+        "NewName": "LifeIcon",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-11-26T18:03:05.4764169Z"
+      },
+      {
+        "NewName": "LifeIcon (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:03:51.9746988Z"
+      },
+      {
+        "NewName": "Full",
+        "OldName": "Red",
+        "ElementType": "Standards",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-26T18:12:49.5322193Z"
+      },
+      {
+        "NewName": "Red",
+        "OldName": "Full",
+        "ElementType": "Standards",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-26T18:13:04.3362625Z"
+      },
+      {
+        "NewName": "ContentCategory",
+        "OldName": "FulnessCategory",
+        "ElementType": "Components",
+        "EventType": 4,
+        "TimestampUtc": "2024-11-26T18:16:40.4536217Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:17:56.1268522Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:19:11.4156294Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance2",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:19:15.7761912Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance3",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:19:19.8095434Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.LifeIcon LifeIconInstance3 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:30:30.6264872Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.LifeIcon LifeIconInstance2 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:30:32.9327027Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.LifeIcon LifeIconInstance1 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:30:35.5093681Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.LifeIcon LifeIconInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:30:37.597782Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:30:46.6859783Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.LifeIcon LifeIconInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:32:37.8351007Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Container LifeMeter in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:33:39.7349847Z"
+      },
+      {
+        "NewName": "GameScreenGum.Some",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:33:50.4410709Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:33:55.7262504Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Container Some in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:36:48.0418346Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.LifeIcon LifeIconInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-11-26T18:36:53.2680957Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeMeter",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:37:12.572417Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:37:15.548221Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:37:29.2301039Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance2",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:37:31.7653294Z"
+      },
+      {
+        "NewName": "GameScreenGum.LifeIconInstance3",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:37:33.8562054Z"
+      },
+      {
+        "NewName": "Counter",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2024-11-26T18:42:10.8133191Z"
+      },
+      {
+        "NewName": "Counter (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:42:26.909655Z"
+      },
+      {
+        "NewName": "Counter (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:45:29.9092614Z"
+      },
+      {
+        "NewName": "GameScreenGum.Counters",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:49:36.441512Z"
+      },
+      {
+        "NewName": "GameScreenGum.CounterInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-11-26T18:56:47.7450173Z"
+      },
+      {
+        "NewName": "GameScreenGum.CoinCounter",
+        "OldName": "GameScreenGum.CounterInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-11-26T19:01:56.170216Z"
+      },
+      {
+        "NewName": "GameScreenGum.CoinCounter",
+        "OldName": "GameScreenGum.CounterInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-11-26T19:01:56.1741418Z"
+      },
+      {
+        "NewName": "GameScreenGum.CoinCounter",
+        "OldName": "GameScreenGum.CounterInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-11-26T19:01:56.1920942Z"
+      },
+      {
+        "NewName": "GameScreenGum.CoinCounter",
+        "OldName": "GameScreenGum.CounterInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-11-26T19:01:56.2050557Z"
+      },
+      {
+        "NewName": "GameScreenGum.CoinCounter",
+        "OldName": "GameScreenGum.CounterInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-11-26T19:01:56.215027Z"
+      },
+      {
+        "NewName": "GameScreenGum.CoinCounter",
+        "OldName": "GameScreenGum.CounterInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2024-11-26T19:01:56.2237283Z"
+      }
+    ]
+  }
+}

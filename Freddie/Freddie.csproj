@@ -173,6 +173,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>UserControl</Name>
     </None>
+    <None Include="Content\GumProject\Components\Counter.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Counter</Name>
+    </None>
     <None Include="Content\GumProject\Components\Elements\CautionLines.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>CautionLines</Name>
@@ -208,6 +212,10 @@
     <None Include="Content\GumProject\Components\Elements\VerticalLines.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>VerticalLines</Name>
+    </None>
+    <None Include="Content\GumProject\Components\LifeIcon.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>LifeIcon</Name>
     </None>
     <None Include="Content\GumProject\FontCache\Font10Arial.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -256,6 +264,14 @@
     <None Include="Content\GumProject\FontCache\Font16Arial_Bold_0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Font16Arial_Bold_0</Name>
+    </None>
+    <None Include="Content\GumProject\FontCache\Font16Arial_o1.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font16Arial_o1</Name>
+    </None>
+    <None Include="Content\GumProject\FontCache\Font16Arial_o1_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font16Arial_o1_0</Name>
     </None>
     <None Include="Content\GumProject\FontCache\Font18Arial_Bold.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -547,6 +563,10 @@
     <Compile Include="GumRuntimes\Controls\UserControlRuntime.Generated.cs">
       <DependentUpon>UserControlRuntime.cs</DependentUpon>
     </Compile>
+    <Compile Include="GumRuntimes\CounterRuntime.cs" />
+    <Compile Include="GumRuntimes\CounterRuntime.Generated.cs">
+      <DependentUpon>CounterRuntime.cs</DependentUpon>
+    </Compile>
     <Compile Include="GumRuntimes\Elements\CautionLinesRuntime.cs" />
     <Compile Include="GumRuntimes\Elements\CautionLinesRuntime.Generated.cs">
       <DependentUpon>CautionLinesRuntime.cs</DependentUpon>
@@ -591,6 +611,10 @@
     <Compile Include="GumRuntimes\Level1GumRuntime.cs" />
     <Compile Include="GumRuntimes\Level1GumRuntime.Generated.cs">
       <DependentUpon>Level1GumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\LifeIconRuntime.cs" />
+    <Compile Include="GumRuntimes\LifeIconRuntime.Generated.cs">
+      <DependentUpon>LifeIconRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\NineSliceRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\PolygonRuntime.Generated.cs" />

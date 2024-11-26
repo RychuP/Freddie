@@ -3,6 +3,347 @@
   <Name>GameScreenGum</Name>
   <State>
     <Name>Default</Name>
+    <Variable>
+      <Type>string</Type>
+      <Name>CoinCounter.CounterText</Name>
+      <Value xsi:type="xsd:string">199</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IconCategory</Type>
+      <Name>CoinCounter.IconCategoryState</Name>
+      <Value xsi:type="xsd:string">Coin</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>CoinCounter.Parent</Name>
+      <Value xsi:type="xsd:string">Counters</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>CoinCounter.X</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>CoinCounter.X Origin</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>CoinCounter.X Units</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>CoinCounter.Y</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Counters.Height</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>Counters.Height Units</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Counters.Width</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>Counters.Width Units</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Counters.X</Name>
+      <Value xsi:type="xsd:float">-5</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>Counters.X Origin</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>Counters.X Units</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Counters.Y</Name>
+      <Value xsi:type="xsd:float">5</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>LifeIconInstance.Parent</Name>
+      <Value xsi:type="xsd:string">LifeMeter</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>LifeIconInstance1.Parent</Name>
+      <Value xsi:type="xsd:string">LifeMeter</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>LifeIconInstance2.Parent</Name>
+      <Value xsi:type="xsd:string">LifeMeter</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>LifeIconInstance3.Parent</Name>
+      <Value xsi:type="xsd:string">LifeMeter</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>ChildrenLayout</Type>
+      <Name>LifeMeter.Children Layout</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>LifeMeter.Height</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>LifeMeter.Height Units</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>LifeMeter.StackSpacing</Name>
+      <Value xsi:type="xsd:float">5</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>LifeMeter.Width</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>LifeMeter.Width Units</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>LifeMeter.X</Name>
+      <Value xsi:type="xsd:float">5</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>LifeMeter.Y</Name>
+      <Value xsi:type="xsd:float">5</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PercentCategory</Type>
+      <Name>PercentCategoryState</Name>
+      <SetsValue>true</SetsValue>
+    </Variable>
   </State>
+  <Category>
+    <Name>PercentCategory</Name>
+    <IsSetRecursively>false</IsSetRecursively>
+    <State>
+      <Name>0</Name>
+      <Variable>
+        <Type>string</Type>
+        <Name>LifeIconInstance.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance1.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance2.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance3.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+    <State>
+      <Name>25</Name>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>string</Type>
+        <Name>LifeIconInstance1.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance2.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance3.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+    <State>
+      <Name>50</Name>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance1.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>string</Type>
+        <Name>LifeIconInstance2.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance3.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+    <State>
+      <Name>75</Name>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance1.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance2.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>string</Type>
+        <Name>LifeIconInstance3.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Empty</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+    <State>
+      <Name>100</Name>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance1.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance2.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>ContentCategory</Type>
+        <Name>LifeIconInstance3.ContentCategoryState</Name>
+        <Value xsi:type="xsd:string">Full</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+  </Category>
+  <Instance>
+    <Name>LifeMeter</Name>
+    <BaseType>Container</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>LifeIconInstance</Name>
+    <BaseType>LifeIcon</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>LifeIconInstance1</Name>
+    <BaseType>LifeIcon</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>LifeIconInstance2</Name>
+    <BaseType>LifeIcon</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>LifeIconInstance3</Name>
+    <BaseType>LifeIcon</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>Counters</Name>
+    <BaseType>Container</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>CoinCounter</Name>
+    <BaseType>Counter</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
   <Behaviors />
 </ScreenSave>
