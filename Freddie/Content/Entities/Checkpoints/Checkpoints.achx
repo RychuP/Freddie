@@ -4,12 +4,12 @@
   <TimeMeasurementUnit>Undefined</TimeMeasurementUnit>
   <CoordinateType>Pixel</CoordinateType>
   <AnimationChain>
-    <Name>Closed</Name>
+    <Name>CheckpointPole</Name>
     <Frame>
       <TextureName>../../freddietileset.png</TextureName>
       <FrameLength>0.1</FrameLength>
-      <LeftCoordinate>112</LeftCoordinate>
-      <RightCoordinate>144</RightCoordinate>
+      <LeftCoordinate>208</LeftCoordinate>
+      <RightCoordinate>224</RightCoordinate>
       <TopCoordinate>192</TopCoordinate>
       <BottomCoordinate>224</BottomCoordinate>
       <RelativeY>8</RelativeY>
@@ -23,7 +23,46 @@
     </Frame>
   </AnimationChain>
   <AnimationChain>
-    <Name>Open</Name>
+    <Name>CheckpointFlag</Name>
+    <Frame>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>224</LeftCoordinate>
+      <RightCoordinate>240</RightCoordinate>
+      <TopCoordinate>192</TopCoordinate>
+      <BottomCoordinate>224</BottomCoordinate>
+      <RelativeX>9</RelativeX>
+      <RelativeY>6</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>DoorClosed</Name>
+    <Frame>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>112</LeftCoordinate>
+      <RightCoordinate>144</RightCoordinate>
+      <TopCoordinate>192</TopCoordinate>
+      <BottomCoordinate>224</BottomCoordinate>
+      <RelativeY>4</RelativeY>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>DoorOpen</Name>
     <Frame>
       <TextureName>../../freddietileset.png</TextureName>
       <FrameLength>0.1</FrameLength>
@@ -31,7 +70,7 @@
       <RightCoordinate>176</RightCoordinate>
       <TopCoordinate>192</TopCoordinate>
       <BottomCoordinate>224</BottomCoordinate>
-      <RelativeY>8</RelativeY>
+      <RelativeY>4</RelativeY>
       <ShapeCollectionSave>
         <AxisAlignedRectangleSaves />
         <AxisAlignedCubeSaves />

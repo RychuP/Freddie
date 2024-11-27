@@ -99,7 +99,16 @@
   ],
   "EntityReferences": [
     {
+      "Name": "Entities\\Ball"
+    },
+    {
+      "Name": "Entities\\Checkpoints\\Checkpoint"
+    },
+    {
       "Name": "Entities\\Checkpoints\\Door"
+    },
+    {
+      "Name": "Entities\\Checkpoints\\Flag"
     },
     {
       "Name": "Entities\\Collectables\\Coin"
@@ -114,13 +123,16 @@
       "Name": "Entities\\Player"
     },
     {
-      "Name": "Entities\\Projectiles\\Ball"
+      "Name": "Entities\\Projectiles\\BlueFire"
     },
     {
       "Name": "Entities\\Projectiles\\Fire"
     },
     {
       "Name": "Entities\\Projectiles\\Projectile"
+    },
+    {
+      "Name": "Entities\\Spawners\\ProjectileSpawner"
     },
     {
       "Name": "Entities\\TestCollision"

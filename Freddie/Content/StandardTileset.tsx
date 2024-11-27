@@ -12,6 +12,7 @@
  <tile id="33" type="BreakableCollision"/>
  <tile id="34" type="IceCollision"/>
  <tile id="64" type="Door"/>
+ <tile id="68" type="Flag"/>
  <tile id="96" type="Ladder"/>
  <tile id="97" type="Coin"/>
  <tile id="101" type="Fire">
@@ -19,6 +20,7 @@
    <property name="StartDelay" type="float" value="0"/>
   </properties>
  </tile>
+ <tile id="102" type="BlueFireDown"/>
  <tile id="256">
   <properties>
    <property name="MatchType" value="Empty"/>

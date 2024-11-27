@@ -6,7 +6,7 @@
     <Variable>
       <Type>string</Type>
       <Name>CoinCounter.CounterText</Name>
-      <Value xsi:type="xsd:string">199</Value>
+      <Value xsi:type="xsd:string">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>

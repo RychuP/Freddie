@@ -88,12 +88,6 @@
       ],
       "InstructionSaves": [
         {
-          "Type": "float",
-          "Member": "TextureScale",
-          "Value": 1.0,
-          "Time": 0.0
-        },
-        {
           "Type": "AnimationChainList",
           "Member": "AnimationChains",
           "Value": "ProjectileAnimations",
@@ -103,6 +97,12 @@
           "Type": "string",
           "Member": "CurrentChainName",
           "Value": "Ball",
+          "Time": 0.0
+        },
+        {
+          "Type": "float",
+          "Member": "TextureScale",
+          "Value": 1.0,
           "Time": 0.0
         }
       ],
@@ -137,6 +137,6 @@
       "GenerateTimedEmit": true
     }
   ],
-  "Name": "Entities\\Projectiles\\Ball",
+  "Name": "Entities\\Ball",
   "CustomClassesForExport": []
 }

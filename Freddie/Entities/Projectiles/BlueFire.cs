@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework;
 
 namespace Freddie.Entities.Projectiles
 {
-    public partial class Ball
+    public partial class BlueFire
     {
         /// <summary>
         /// Initialization logic which is executed only one time for this Entity (unless the Entity is pooled).

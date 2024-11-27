@@ -6,16 +6,9 @@
   "BaseEntity": "Entities\\Checkpoints\\Checkpoint",
   "CreatedByOtherEntities": true,
   "Is2D": true,
-  "Properties": [
-    {
-      "Name": "ImplementsICollidable",
-      "Value": true,
-      "Type": "bool"
-    }
-  ],
   "NamedObjects": [
     {
-      "InstanceName": "SpriteInstance",
+      "InstanceName": "PoleSprite",
       "SourceClassType": "FlatRedBall.Sprite",
       "Properties": [
         {
@@ -34,13 +27,54 @@
         {
           "Type": "string",
           "Member": "CurrentChainName",
-          "Value": "DoorClosed",
+          "Value": "CheckpointPole",
           "Time": 0.0
         },
         {
           "Type": "float",
           "Member": "TextureScale",
           "Value": 1.0,
+          "Time": 0.0
+        }
+      ],
+      "SourceType": 2,
+      "SourceFile": "Sprite",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "FlagSprite",
+      "SourceClassType": "FlatRedBall.Sprite",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [
+        {
+          "Type": "AnimationChainList",
+          "Member": "AnimationChains",
+          "Value": "Checkpoints",
+          "Time": 0.0
+        },
+        {
+          "Type": "string",
+          "Member": "CurrentChainName",
+          "Value": "CheckpointFlag",
+          "Time": 0.0
+        },
+        {
+          "Type": "float",
+          "Member": "TextureScale",
+          "Value": 1.0,
+          "Time": 0.0
+        },
+        {
+          "Type": "bool",
+          "Member": "Visible",
+          "Value": false,
           "Time": 0.0
         }
       ],
@@ -63,7 +97,7 @@
         {
           "Type": "float",
           "Member": "Height",
-          "Value": 28.0,
+          "Value": 32.0,
           "Time": 0.0
         },
         {
@@ -75,13 +109,13 @@
         {
           "Type": "float",
           "Member": "Width",
-          "Value": 28.0,
+          "Value": 12.0,
           "Time": 0.0
         },
         {
           "Type": "float",
           "Member": "Y",
-          "Value": 4.0,
+          "Value": 8.0,
           "Time": 0.0
         }
       ],
@@ -93,6 +127,6 @@
       "DefinedByBase": true
     }
   ],
-  "Name": "Entities\\Checkpoints\\Door",
+  "Name": "Entities\\Checkpoints\\Flag",
   "CustomClassesForExport": []
 }

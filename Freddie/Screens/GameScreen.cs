@@ -18,15 +18,20 @@ using FlatRedBall.Entities;
 using System.Diagnostics;
 using Freddie.Entities.Checkpoints;
 using Freddie.Entities.Projectiles;
+using Freddie.Entities;
 
 namespace Freddie.Screens;
 
 public partial class GameScreen
 {
+    Checkpoint CurrentCheckpoint;
+
     private void CustomInitialize()
     {
+        RegisterEventHandlers();
+        SetInitialValues();
         SetZLevels();
-        InitializeProjectiles();
+        InitializeTraps();
     }
 
     private void CustomActivity(bool firstTimeCalled)
@@ -54,6 +59,11 @@ public partial class GameScreen
         FlatRedBall.Debugging.Debugger.CommandLineWrite($"Player.Z = {Player.Z}");
     }
 
+    void SetInitialValues()
+    {
+        Player.Coins = 0;
+    }
+
     void SetZLevels()
     {
         SetZ(DoorList, ZLevel.Buildings);
@@ -72,7 +82,7 @@ public partial class GameScreen
         posObject.Z = (int)level;
     }
 
-    void InitializeProjectiles()
+    void InitializeTraps()
     {
         foreach (var projectile in ProjectileList)
         {

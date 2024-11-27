@@ -78,50 +78,24 @@
       "Properties": [
         {
           "Name": "Type",
-          "Value": "float",
+          "Value": "string",
+          "Type": "String"
+        },
+        {
+          "Name": "Category",
+          "Value": "Animation",
           "Type": "String"
         }
       ],
-      "Name": "StartDelay",
-      "SetByDerived": true
+      "Name": "CurrentSpriteChainName",
+      "DefaultValue": "BlueFire",
+      "SetByDerived": true,
+      "SourceObject": "SpriteInstance",
+      "SourceObjectProperty": "CurrentChainName",
+      "Category": "Animation"
     }
   ],
   "NamedObjects": [
-    {
-      "InstanceName": "BaseSprite",
-      "SourceClassType": "FlatRedBall.Sprite",
-      "Properties": [
-        {
-          "Name": "AssociateWithFactory",
-          "Value": true,
-          "Type": "bool"
-        }
-      ],
-      "InstructionSaves": [
-        {
-          "Type": "float",
-          "Member": "TextureScale",
-          "Value": 1.0,
-          "Time": 0.0
-        },
-        {
-          "Type": "AnimationChainList",
-          "Member": "AnimationChains",
-          "Value": "ProjectileAnimations",
-          "Time": 0.0
-        },
-        {
-          "Type": "string",
-          "Member": "CurrentChainName",
-          "Value": "ProjectileSpawner",
-          "Time": 0.0
-        }
-      ],
-      "SourceType": 2,
-      "SourceFile": "Sprite",
-      "AttachToContainer": true,
-      "GenerateTimedEmit": true
-    },
     {
       "InstanceName": "SpriteInstance",
       "SourceClassType": "FlatRedBall.Sprite",
@@ -134,12 +108,6 @@
       ],
       "InstructionSaves": [
         {
-          "Type": "bool",
-          "Member": "Animate",
-          "Value": false,
-          "Time": 0.0
-        },
-        {
           "Type": "AnimationChainList",
           "Member": "AnimationChains",
           "Value": "ProjectileAnimations",
@@ -148,7 +116,7 @@
         {
           "Type": "string",
           "Member": "CurrentChainName",
-          "Value": "Fire",
+          "Value": "BlueFire",
           "Time": 0.0
         },
         {
@@ -171,6 +139,36 @@
       "DefinedByBase": true
     }
   ],
-  "Name": "Entities\\Projectiles\\Fire",
+  "StateCategoryList": [
+    {
+      "Name": "SpriteAnimationCategory",
+      "States": [
+        {
+          "Name": "Launch",
+          "InstructionSaves": [
+            {
+              "Type": "string",
+              "Member": "CurrentSpriteChainName",
+              "Value": "BlueFireLaunchDown",
+              "Time": 0.0
+            }
+          ]
+        },
+        {
+          "Name": "FullMotion",
+          "InstructionSaves": []
+        }
+      ],
+      "ExcludedVariables": [
+        "X",
+        "Y",
+        "Z",
+        "TeamIndex",
+        "SecondsBetweenDamage",
+        "DamageToDeal"
+      ]
+    }
+  ],
+  "Name": "Entities\\Projectiles\\BlueFire",
   "CustomClassesForExport": []
 }

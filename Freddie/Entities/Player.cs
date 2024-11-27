@@ -15,6 +15,8 @@ namespace Freddie.Entities;
 
 public partial class Player
 {
+    public event EventHandler<CoinsEventArgs> CoinsChanged;
+
     IPressableInput RunInput;
 
     public bool UpInputIsApplied => VerticalInput.Value > 0;
@@ -23,6 +25,20 @@ public partial class Player
 
     public bool IsSkidding => Math.Sign(XVelocity) != Math.Sign(HorizontalInput.Value) &&
                 RunInput.IsDown;
+
+    int _coins;
+    public int Coins
+    {
+        get => _coins;
+        set
+        {
+            if (value < 0) value = 0;
+            if (_coins == value) return;
+            var prevCoins = _coins;
+            _coins = value;
+            OnCoinsChanged(prevCoins, _coins);
+        }
+    }
 
     private void CustomInitialize()
     {
@@ -83,4 +99,20 @@ public partial class Player
             }
         }
     }
+
+    void OnCoinsChanged(int prevCoins, int newCoins)
+    {
+        var args = new CoinsEventArgs()
+        {
+            PrevCoins = prevCoins,
+            NewCoins = newCoins
+        };
+        CoinsChanged?.Invoke(this, args);
+    }
+}
+
+public class CoinsEventArgs : EventArgs
+{
+    public int PrevCoins { get; init; }
+    public int NewCoins { get; init; }
 }

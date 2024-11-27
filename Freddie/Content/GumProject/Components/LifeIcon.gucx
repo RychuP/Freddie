@@ -29,7 +29,7 @@
     <Variable>
       <Type>int</Type>
       <Name>SpriteInstance.Blue</Name>
-      <Value xsi:type="xsd:int">90</Value>
+      <Value xsi:type="xsd:int">255</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -41,20 +41,20 @@
     <Variable>
       <Type>int</Type>
       <Name>SpriteInstance.Green</Name>
-      <Value xsi:type="xsd:int">52</Value>
+      <Value xsi:type="xsd:int">255</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>int</Type>
       <Name>SpriteInstance.Red</Name>
-      <Value xsi:type="xsd:int">224</Value>
+      <Value xsi:type="xsd:int">255</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <IsFile>true</IsFile>
       <Type>string</Type>
       <Name>SpriteInstance.SourceFile</Name>
-      <Value xsi:type="xsd:string">UISpriteSheet.png</Value>
+      <Value xsi:type="xsd:string">..\FreddieTileset.png</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -66,19 +66,19 @@
     <Variable>
       <Type>int</Type>
       <Name>SpriteInstance.Texture Height</Name>
-      <Value xsi:type="xsd:int">14</Value>
+      <Value xsi:type="xsd:int">16</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>int</Type>
       <Name>SpriteInstance.Texture Left</Name>
-      <Value xsi:type="xsd:int">328</Value>
+      <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>int</Type>
       <Name>SpriteInstance.Texture Top</Name>
-      <Value xsi:type="xsd:int">138</Value>
+      <Value xsi:type="xsd:int">192</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -119,18 +119,54 @@
     <State>
       <Name>Full</Name>
       <Variable>
-        <Type>ColorCategory</Type>
-        <Name>SpriteInstance.ColorCategoryState</Name>
-        <Value xsi:type="xsd:string">Red</Value>
+        <Type>int</Type>
+        <Name>SpriteInstance.Texture Left</Name>
+        <Value xsi:type="xsd:int">0</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>SpriteInstance.Texture Top</Name>
+        <Value xsi:type="xsd:int">192</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>SpriteInstance.Texture Width</Name>
+        <Value xsi:type="xsd:int">16</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>SpriteInstance.Texture Height</Name>
+        <Value xsi:type="xsd:int">16</Value>
         <SetsValue>true</SetsValue>
       </Variable>
     </State>
     <State>
       <Name>Empty</Name>
       <Variable>
-        <Type>string</Type>
-        <Name>SpriteInstance.ColorCategoryState</Name>
-        <Value xsi:type="xsd:string">OtherGray</Value>
+        <Type>int</Type>
+        <Name>SpriteInstance.Texture Left</Name>
+        <Value xsi:type="xsd:int">16</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>SpriteInstance.Texture Top</Name>
+        <Value xsi:type="xsd:int">192</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>SpriteInstance.Texture Width</Name>
+        <Value xsi:type="xsd:int">16</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>SpriteInstance.Texture Height</Name>
+        <Value xsi:type="xsd:int">16</Value>
         <SetsValue>true</SetsValue>
       </Variable>
     </State>

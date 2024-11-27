@@ -21,13 +21,13 @@
     <None Remove="**\*.glej" />
     <None Remove="**\*.gluj" />
     <None Remove="Content\images\**" />
+    <None Include="Content\Entities\Checkpoints\Checkpoints.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Checkpoints</Name>
+    </None>
     <None Include="Content\Entities\Collectables\CollectableAnimations.achx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>CollectableAnimations</Name>
-    </None>
-    <None Include="Content\Entities\Door\DoorAnimations.achx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>DoorAnimations</Name>
     </None>
     <None Include="Content\Entities\Enemies\Enemy\PlatformerValuesStatic.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -49,9 +49,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Freddie</Name>
     </None>
-    <None Include="Content\FreddieTileset.png">
+    <None Include="Content\freddietileset.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>FreddieTileset</Name>
+      <Name>freddietileset</Name>
     </None>
     <None Include="Content\GumProject\Components\Controls\ButtonClose.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -366,6 +366,14 @@
     <Compile Include="DataTypes\PlatformerValues.Generated.cs" />
     <Compile Include="DataTypes\TileMapInfo.Generated.cs" />
     <Compile Include="DataTypes\ZLevel.cs" />
+    <Compile Include="Entities\Checkpoints\Checkpoint.cs" />
+    <Compile Include="Entities\Checkpoints\Checkpoint.Generated.cs">
+      <DependentUpon>Checkpoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Checkpoints\Flag.cs" />
+    <Compile Include="Entities\Checkpoints\Flag.Generated.cs">
+      <DependentUpon>Flag.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entities\Collectables\Coin.cs" />
     <Compile Include="Entities\Collectables\Coin.Generated.cs">
       <DependentUpon>Coin.cs</DependentUpon>
@@ -386,13 +394,21 @@
     <Compile Include="Entities\Player.Generated.cs">
       <DependentUpon>Player.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entities\Projectiles\Ball.cs" />
-    <Compile Include="Entities\Projectiles\Ball.Generated.cs">
+    <Compile Include="Entities\Ball.cs" />
+    <Compile Include="Entities\Ball.Generated.cs">
       <DependentUpon>Ball.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Projectiles\BlueFire.cs" />
+    <Compile Include="Entities\Projectiles\BlueFire.Generated.cs">
+      <DependentUpon>BlueFire.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Projectiles\Fire.cs" />
     <Compile Include="Entities\Projectiles\Fire.Generated.cs">
       <DependentUpon>Fire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Spawners\ProjectileSpawner.cs" />
+    <Compile Include="Entities\Spawners\ProjectileSpawner.Generated.cs">
+      <DependentUpon>ProjectileSpawner.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Projectiles\Projectile.cs" />
     <Compile Include="Entities\Projectiles\Projectile.Generated.cs">
@@ -403,9 +419,12 @@
       <DependentUpon>TestCollision.cs</DependentUpon>
     </Compile>
     <Compile Include="Factories\BallFactory.Generated.cs" />
+    <Compile Include="Factories\BlueFireFactory.Generated.cs" />
     <Compile Include="Factories\CoinFactory.Generated.cs" />
     <Compile Include="Factories\DoorFactory.Generated.cs" />
     <Compile Include="Factories\FireFactory.Generated.cs" />
+    <Compile Include="Factories\FlagFactory.Generated.cs" />
+    <Compile Include="Factories\ProjectileSpawnerFactory.Generated.cs" />
     <Compile Include="Factories\PlayerFactory.Generated.cs" />
     <Compile Include="Factories\TestCollisionFactory.Generated.cs" />
     <Compile Include="FileAliases.Generated.cs" />
