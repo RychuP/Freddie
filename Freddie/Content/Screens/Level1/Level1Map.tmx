@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="75" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="26">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="75" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="37">
  <tileset firstgid="1" source="../../Freddie.tsx"/>
  <tileset firstgid="541" source="../../StandardTileset.tsx"/>
  <layer id="4" name="SkyLayer" width="75" height="27" tintcolor="#ffffff">
@@ -14,17 +14,17 @@
  </layer>
  <layer id="2" name="BushesLayer" width="75" height="27">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu2WYU7DMAxGmwMBpwHOwP6XLUdIWI/QDW6KI9nia+ZEQmJzmPwkq9W0tMmrY2eaHMdxHMdxHMdxHMf5T8xhmvbBehZjI44SxZHincO9/TCzk4Xig119UXxSHCjO4f5y7YHW8kjxxtcdX58aa0RHxUvmfFrYUYT8Eo8yxsrbX733mZ7zosRr4/kr+yheThBRcZYh5+TegqPht5LahO9ewVvZf2vj3oJo+K3qtbfqkuw961qfoIZagz1wH7Y17WCcUzK/Xk7dsp5KntU1y9qR0HM1Q5+S/+A+uVYvT4M5ElquxFPm8w72b+2+5+w39Ubea9XretQ1oiDzlZ4t3ziGbR/PYXs2anlI4fLMhPUIx41UP2vqGoG1tMw3hcs8WsBV7uyXWRmHzhbFi3aOGAWt1+C68bwTKzfyW2u/aGPRtZY/I+fVN3NclFKkHwAA
+   H4sIAAAAAAAACu2WjYqDMBCE3YfO1TxCcvUR7M+bXgJZbtxGaym99WA+WBBUkoyzsw4DIYQQQgghhBBC/hNBhuEk3rs4NqpRKnUu9dWKuv0SmiZTqe+m1b3UrdRY6ir0GmpUdcnNT1PTKIK/VMfg7DWvdeemR9XlAhU7mmXwnF57cHb8VppNuPYMutX+m1euPYh/9K16mYNn3+ovveed9Qky9BNgLqmHerpoT6LP8d1RfD1VSU889W6eYk/ZLLLnVr1u5jlvjZQtrQLMKX0Ge+nVWY5arK1pM/8IGilrWqlONcvuZn73rvdq9qzndV2vWbdF6pxX9zuabxxlOcezLP+N9ujVm332/ifz8x1mWWYJZmndb5JHH02gVX6hX9CrPb2CLGfA0ejNGjy3zeZsnos7+gXXQI3te5hVR/TVDybI0I+kHwAA
   </data>
  </layer>
  <layer id="2" name="GroundLayer" width="75" height="27" tintcolor="#ffffff">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu3WUQqCUBCF4XxM13KzlmDWEjRdQu1/Ac2lGRhE5bzNDc8PB6kE4evh2lcnBtSJU08rKFrh0QqPVni0wqMVHq3waIVHKzxa4dEKj1Z4tMKjFR6t8GiFF22V5NkX2VuveR+3tqD/MdpqkGePsptskt3dZtnDGZpnlF+0lWVma26zXq/6++vgVj7v5hdlZJVoVWq0wqMV3p5Vo9/X1W/NwU3N6qweuVo/J33H8e8+kWd2dN3iHcbvqWe1P7+nnfu3DNPG/f+27PEFG2mEIKQfAAA=
+   H4sIAAAAAAAACu2WWw6CMBBF5VPYgzuojyUgugQVlqD7X4AlziSTBsuV8Kh6T3LTQMo0HEo6VbYiAKX3VNEVBF3h0BUOXeHQFQ5d4dAVDl3h0BUOXeHQFQ5d4dAVDl3h0BXOmK6cr7P1ucv4kHH3I99iTFcXX+fakVukfuhXHWtS8rz0P6h+Dz61z9Gk8TkZh+pzKX9Lu1Lsngy9NTLugX06Jam4sgz5l+dgLlebrDvfRIr7KlXoCifmqpD7efZK8edO1dVafLTkcu2kx7G9z5Az2/U84z6o21drSsqgh7E5y1ltz+86Mv/dO8TW0HXCXio2F5k3Rdq1n6YS6j2kHwAA
   </data>
  </layer>
  <layer id="1" name="GameplayLayer" width="75" height="27" visible="0" opacity="0.5" tintcolor="#ffffff">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu3WQQrAIAwAweI//P83eyi9iOgqQoLsQo62YQ5iLY+BavnG5mnF04qnFU8rnlY8rXha8bTiacXTiqcVTyueVjyteCet/m/15oairUZnsjlH70OssvhFW7V7aLVWNqN2L5unFU8rnla8kVXWOzaq3ffNiuHpf0TOCyhesgikHwAA
+   H4sIAAAAAAAACu3WQQqAIBBA0fAeQfc/ZYtoI2LfUhzjP5hlNvwg3NMmYE/X6JmtOFtxtuJsxdmKsxVnK85WnK04W3G24mzF2YqzFdez1X1Waf5gdqvaM9E6z96HtIrSb3arfA9btYnWKN9rtCOVZyURvtcqbMXZiqu16vWPbbljfT1rpLf3m5aGvd8xc05FrPKIpB8AAA==
   </data>
  </layer>
  <objectgroup id="1" name="ObjectsLayer">
@@ -83,5 +83,15 @@
   </object>
   <object id="23" name="GameStart" gid="609" x="48" y="416" width="16" height="16"/>
   <object id="24" name="Pit1" type="Pit" x="249.5" y="452.5" width="185.5" height="19"/>
+  <object id="26" gid="638" x="304" y="240" width="16" height="16"/>
+  <object id="27" gid="638" x="336" y="240" width="16" height="16"/>
+  <object id="28" gid="638" x="368" y="240" width="16" height="16"/>
+  <object id="29" gid="638" x="512" y="256" width="16" height="16"/>
+  <object id="30" gid="638" x="544" y="256" width="16" height="16"/>
+  <object id="31" gid="638" x="576" y="256" width="16" height="16"/>
+  <object id="32" gid="638" x="608" y="256" width="16" height="16"/>
+  <object id="33" name="Tree" gid="609" x="528" y="400" width="16" height="16"/>
+  <object id="34" gid="644" x="464" y="400" width="16" height="16"/>
+  <object id="36" gid="644" x="592" y="400" width="16" height="16"/>
  </objectgroup>
 </map>

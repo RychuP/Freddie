@@ -80,7 +80,8 @@
       "Name": "PlatformerValues",
       "CsvFilesUsingThis": [
         "Entities/Player/PlatformerValuesStatic.csv",
-        "Entities/Enemies/Enemy/PlatformerValuesStatic.csv"
+        "Entities/Enemies/Enemy/PlatformerValuesStatic.csv",
+        "Entities/Enemies/Ball/PlatformerValuesStatic.csv"
       ],
       "RequiredProperties": [],
       "GenerateCode": true
@@ -99,9 +100,6 @@
   ],
   "EntityReferences": [
     {
-      "Name": "Entities\\Ball"
-    },
-    {
       "Name": "Entities\\Checkpoints\\Checkpoint"
     },
     {
@@ -115,6 +113,9 @@
     },
     {
       "Name": "Entities\\Collectables\\Collectable"
+    },
+    {
+      "Name": "Entities\\Enemies\\Ball"
     },
     {
       "Name": "Entities\\Enemies\\Enemy"

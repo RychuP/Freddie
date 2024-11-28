@@ -563,6 +563,42 @@
       "GenerateTimedEmit": true
     },
     {
+      "InstanceName": "PlayerVsEnemy",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.Player, Entities.Enemies.Enemy>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "bool"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PlayerList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "EnemyList",
+          "Type": "String"
+        },
+        {
+          "Name": "IsDealDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.Player, Entities.Enemies.Enemy>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
       "InstanceName": "ProjectileVsTrap",
       "SourceClassType": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.Projectiles.Projectile, Entities.Traps.Trap>",
       "Properties": [
@@ -597,6 +633,57 @@
       "SourceFile": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.Projectiles.Projectile, Entities.Traps.Trap>",
       "AttachToContainer": true,
       "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "EnemyVsSolidCollision",
+      "SourceClassType": "FlatRedBall.Math.Collision.DelegateListVsSingleRelationship<Entities.Enemies.Enemy, FlatRedBall.TileCollisions.TileShapeCollection>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "bool"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "EnemyList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "SolidCollision",
+          "Type": "String"
+        },
+        {
+          "Name": "CollisionType",
+          "Value": 3,
+          "Type": "int"
+        },
+        {
+          "Name": "IsDealDamageChecked",
+          "Value": false,
+          "Type": "Object"
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 0.0,
+          "Type": "float"
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 1.0,
+          "Type": "float"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.DelegateListVsSingleRelationship<Entities.Enemies.Enemy, FlatRedBall.TileCollisions.TileShapeCollection>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
     }
   ],
   "Name": "Screens\\GameScreen",
@@ -614,6 +701,11 @@
     {
       "EventName": "ProjectileVsTrapCollided",
       "SourceObject": "ProjectileVsTrap",
+      "SourceObjectEvent": "CollisionOccurred"
+    },
+    {
+      "EventName": "EnemyVsSolidCollisionCollided",
+      "SourceObject": "EnemyVsSolidCollision",
       "SourceObjectEvent": "CollisionOccurred"
     }
   ],

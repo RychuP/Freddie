@@ -13,7 +13,6 @@ using FlatRedBall.Math;
 using FlatRedBall.Math.Geometry;
 using FlatRedBall.Localization;
 using Microsoft.Xna.Framework;
-using Freddie.DataTypes;
 using FlatRedBall.Entities;
 using System.Diagnostics;
 using Freddie.Entities.Checkpoints;
@@ -21,6 +20,10 @@ using Freddie.Entities.Projectiles;
 using Freddie.Entities;
 using Freddie.Entities.Traps;
 using Freddie.Entities.Spawners.ProjectileSpawners;
+using Freddie.DataTypes;
+using Freddie.Entities.Enemies;
+using FlatRedBall.TileCollisions;
+using Freddie.EnemyInput;
 
 namespace Freddie.Screens;
 

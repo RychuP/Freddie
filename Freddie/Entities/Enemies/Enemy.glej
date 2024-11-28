@@ -11,6 +11,12 @@
       "HasPublicProperty": true,
       "CreatesDictionary": true,
       "ProjectsToExcludeFrom": []
+    },
+    {
+      "Name": "Entities/Enemies/Enemy/EnemyAnimations.achx",
+      "IsSharedStatic": true,
+      "RuntimeType": "FlatRedBall.Graphics.Animation.AnimationChainList",
+      "ProjectsToExcludeFrom": []
     }
   ],
   "CustomVariables": [
@@ -245,36 +251,6 @@
       "SourceType": 2,
       "SourceFile": "Sprite",
       "SetByDerived": true,
-      "AttachToContainer": true,
-      "GenerateTimedEmit": true
-    },
-    {
-      "InstanceName": "AxisAlignedRectangleInstance",
-      "SourceClassType": "FlatRedBall.Math.Geometry.AxisAlignedRectangle",
-      "Properties": [
-        {
-          "Name": "AssociateWithFactory",
-          "Value": true,
-          "Type": "bool"
-        }
-      ],
-      "InstructionSaves": [
-        {
-          "Type": "float",
-          "Member": "Height",
-          "Value": 32.0,
-          "Time": 0.0
-        },
-        {
-          "Type": "float",
-          "Member": "Width",
-          "Value": 32.0,
-          "Time": 0.0
-        }
-      ],
-      "SourceType": 2,
-      "SourceFile": "AxisAlignedRectangle",
-      "HasPublicProperty": true,
       "AttachToContainer": true,
       "GenerateTimedEmit": true
     }

@@ -29,6 +29,14 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>CollectableAnimations</Name>
     </None>
+    <None Include="Content\Entities\Enemies\Ball\PlatformerValuesStatic.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PlatformerValuesStatic</Name>
+    </None>
+    <None Include="Content\Entities\Enemies\Enemy\EnemyAnimations.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>EnemyAnimations</Name>
+    </None>
     <None Include="Content\Entities\Enemies\Enemy\PlatformerValuesStatic.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>PlatformerValuesStatic</Name>
@@ -371,6 +379,7 @@
     <Compile Include="DataTypes\Strings.cs" />
     <Compile Include="DataTypes\TileMapInfo.Generated.cs" />
     <Compile Include="DataTypes\ZLevel.cs" />
+    <Compile Include="EnemyInput\BallEnemyInput.cs" />
     <Compile Include="Entities\Checkpoints\Checkpoint.cs" />
     <Compile Include="Entities\Checkpoints\Checkpoint.Generated.cs">
       <DependentUpon>Checkpoint.cs</DependentUpon>
@@ -391,6 +400,10 @@
     <Compile Include="Entities\Checkpoints\Door.Generated.cs">
       <DependentUpon>Door.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Enemies\Ball.cs" />
+    <Compile Include="Entities\Enemies\Ball.Generated.cs">
+      <DependentUpon>Ball.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entities\Enemies\Enemy.cs" />
     <Compile Include="Entities\Enemies\Enemy.Generated.cs">
       <DependentUpon>Enemy.cs</DependentUpon>
@@ -398,10 +411,6 @@
     <Compile Include="Entities\Player.cs" />
     <Compile Include="Entities\Player.Generated.cs">
       <DependentUpon>Player.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\Ball.cs" />
-    <Compile Include="Entities\Ball.Generated.cs">
-      <DependentUpon>Ball.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Projectiles\BlueFire.cs" />
     <Compile Include="Entities\Projectiles\BlueFire.Generated.cs">
@@ -413,7 +422,7 @@
     </Compile>
     <Compile Include="Entities\Traps\FireTrap.cs" />
     <Compile Include="Entities\Traps\FireTrap.Generated.cs">
-      <DependentUpon>Fire.cs</DependentUpon>
+      <DependentUpon>FireTrap.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Spawners\ProjectileSpawners\ProjectileSpawner.cs" />
     <Compile Include="Entities\Spawners\ProjectileSpawners\ProjectileSpawner.Generated.cs">

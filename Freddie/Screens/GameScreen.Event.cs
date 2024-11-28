@@ -16,6 +16,8 @@ using Microsoft.Xna.Framework;
 using FlatRedBall.Math.Geometry;
 using FlatRedBall.Entities;
 using Freddie.Entities.Traps;
+using System.Collections.Generic;
+using FlatRedBall.TileCollisions;
 
 namespace Freddie.Screens;
 
@@ -66,6 +68,14 @@ public partial class GameScreen
         if (trap is Pit)
         {
             projectile.Destroy();
+        }
+    }
+
+    void OnEnemyVsSolidCollisionCollided (Enemy enemy, TileShapeCollection solidCollision) 
+    {
+        if (enemy is Ball ball)
+        {
+            ball.HandleSolidCollision(solidCollision);
         }
     }
 

@@ -26,6 +26,7 @@
    <property name="StartDelay" type="float" value="0"/>
   </properties>
  </tile>
+ <tile id="103" type="Ball"/>
  <tile id="256">
   <properties>
    <property name="MatchType" value="Empty"/>
