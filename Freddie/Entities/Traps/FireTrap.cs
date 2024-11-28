@@ -26,9 +26,7 @@ public partial class FireTrap
 
     private void CustomActivity()
     {
-        // apply collision shapes defined in the animation file
-        SpriteInstance.CurrentFrame?.ShapeCollectionSave?.SetValuesOn(Collision, this, true);
-        ForceUpdateDependenciesDeep();
+        ApplyAnimationCollisionShapes();
     }
 
     private void CustomDestroy()
@@ -39,27 +37,5 @@ public partial class FireTrap
     private static void CustomLoadStaticContent(string contentManagerName)
     {
         
-    }
-
-    public async void InitializeFromTiled()
-    {
-        SpriteInstance.Animate = false;
-        SpriteInstance.CurrentFrameIndex = 0;
-        await TimeManager.DelaySeconds(StartDelay);
-        SpriteInstance.Animate = true;
-    }
-
-    public void DelayAnimationStart()
-    {
-        var instr = new DelegateInstruction(StartAnimation)
-        {
-            TimeToExecute = TimeManager.CurrentScreenTime + StartDelay
-        };
-        Instructions.Add(instr);
-    }
-
-    void StartAnimation()
-    {
-        SpriteInstance.Animate = true;
     }
 }

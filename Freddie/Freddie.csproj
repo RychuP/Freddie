@@ -436,6 +436,10 @@
     <Compile Include="Entities\Traps\Pit.Generated.cs">
       <DependentUpon>Pit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Traps\Spikes.cs" />
+    <Compile Include="Entities\Traps\Spikes.Generated.cs">
+      <DependentUpon>Spikes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entities\Traps\Trap.cs" />
     <Compile Include="Entities\Traps\Trap.Generated.cs">
       <DependentUpon>Trap.cs</DependentUpon>
@@ -449,6 +453,7 @@
     <Compile Include="Factories\FlagFactory.Generated.cs" />
     <Compile Include="Factories\PitFactory.Generated.cs" />
     <Compile Include="Factories\PlayerFactory.Generated.cs" />
+    <Compile Include="Factories\SpikesFactory.Generated.cs" />
     <Compile Include="FileAliases.Generated.cs" />
     <Compile Include="Forms\Screens\GameScreenGumForms.Generated.cs" />
     <Compile Include="Forms\Screens\Level1GumForms.Generated.cs" />

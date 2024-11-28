@@ -109,6 +109,17 @@
       "DefaultValue": 1.0,
       "SetByDerived": true,
       "Category": "Damage Dealing"
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "StartDelay",
+      "SetByDerived": true
     }
   ],
   "Properties": [

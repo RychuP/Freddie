@@ -113,10 +113,8 @@ public partial class GameScreen
     {
         foreach (var trap in TrapList)
         {
-            if (trap is FireTrap fireTrap)
-            {
-                fireTrap.InitializeFromTiled();
-            }
+            if (trap is Pit) continue;
+            trap.InitializeFromTiled();
         }
 
         foreach (var projectileSpawner in ProjectileSpawnerList)

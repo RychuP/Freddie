@@ -142,6 +142,9 @@
       "Name": "Entities\\Traps\\Pit"
     },
     {
+      "Name": "Entities\\Traps\\Spikes"
+    },
+    {
       "Name": "Entities\\Traps\\Trap"
     }
   ],

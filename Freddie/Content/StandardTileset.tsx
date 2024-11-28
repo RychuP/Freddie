@@ -13,6 +13,11 @@
  <tile id="34" type="IceCollision"/>
  <tile id="64" type="Door"/>
  <tile id="68" type="Flag"/>
+ <tile id="71" type="Spikes">
+  <properties>
+   <property name="StartDelay" type="float" value="0"/>
+  </properties>
+ </tile>
  <tile id="96" type="Ladder"/>
  <tile id="97" type="Coin"/>
  <tile id="101" type="FireTrap">

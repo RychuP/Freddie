@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework;
 
 namespace Freddie.Entities.Traps;
 
-public partial class Trap
+public partial class Spikes
 {
     /// <summary>
     /// Initialization logic which is executed only one time for this Entity (unless the Entity is pooled).
@@ -26,7 +26,7 @@ public partial class Trap
 
     private void CustomActivity()
     {
-        
+        ApplyAnimationCollisionShapes();
     }
 
     private void CustomDestroy()
@@ -37,36 +37,5 @@ public partial class Trap
     private static void CustomLoadStaticContent(string contentManagerName)
     {
         
-    }
-
-    /// <summary>
-    /// Applies collision shapes defined in the animation file.
-    /// </summary>
-    protected void ApplyAnimationCollisionShapes()
-    {
-        SpriteInstance.CurrentFrame?.ShapeCollectionSave?.SetValuesOn(Collision, this, true);
-        ForceUpdateDependenciesDeep();
-    }
-
-    public async void InitializeFromTiled()
-    {
-        SpriteInstance.Animate = false;
-        SpriteInstance.CurrentFrameIndex = 0;
-        await TimeManager.DelaySeconds(StartDelay);
-        SpriteInstance.Animate = true;
-    }
-
-    public void DelayAnimationStart()
-    {
-        var instr = new DelegateInstruction(StartAnimation)
-        {
-            TimeToExecute = TimeManager.CurrentScreenTime + StartDelay
-        };
-        Instructions.Add(instr);
-    }
-
-    void StartAnimation()
-    {
-        SpriteInstance.Animate = true;
     }
 }

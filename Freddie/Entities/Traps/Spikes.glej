@@ -77,41 +77,6 @@
   ],
   "NamedObjects": [
     {
-      "InstanceName": "BaseSprite",
-      "SourceClassType": "FlatRedBall.Sprite",
-      "Properties": [
-        {
-          "Name": "AssociateWithFactory",
-          "Value": true,
-          "Type": "bool"
-        }
-      ],
-      "InstructionSaves": [
-        {
-          "Type": "AnimationChainList",
-          "Member": "AnimationChains",
-          "Value": "TrapAnimations",
-          "Time": 0.0
-        },
-        {
-          "Type": "string",
-          "Member": "CurrentChainName",
-          "Value": "ProjectileSpawner",
-          "Time": 0.0
-        },
-        {
-          "Type": "float",
-          "Member": "TextureScale",
-          "Value": 1.0,
-          "Time": 0.0
-        }
-      ],
-      "SourceType": 2,
-      "SourceFile": "Sprite",
-      "AttachToContainer": true,
-      "GenerateTimedEmit": true
-    },
-    {
       "InstanceName": "SpriteInstance",
       "SourceClassType": "FlatRedBall.Sprite",
       "Properties": [
@@ -123,9 +88,9 @@
       ],
       "InstructionSaves": [
         {
-          "Type": "bool",
-          "Member": "Animate",
-          "Value": false,
+          "Type": "float",
+          "Member": "TextureScale",
+          "Value": 1.0,
           "Time": 0.0
         },
         {
@@ -137,7 +102,7 @@
         {
           "Type": "string",
           "Member": "CurrentChainName",
-          "Value": "Fire",
+          "Value": "Spikes",
           "Time": 0.0
         },
         {
@@ -147,9 +112,9 @@
           "Time": 0.0
         },
         {
-          "Type": "float",
-          "Member": "TextureScale",
-          "Value": 1.0,
+          "Type": "bool",
+          "Member": "Animate",
+          "Value": false,
           "Time": 0.0
         }
       ],
@@ -160,6 +125,6 @@
       "DefinedByBase": true
     }
   ],
-  "Name": "Entities\\Traps\\FireTrap",
+  "Name": "Entities\\Traps\\Spikes",
   "CustomClassesForExport": []
 }
