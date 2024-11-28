@@ -140,6 +140,46 @@
       "AttachToContainer": true,
       "GenerateTimedEmit": true,
       "DefinedByBase": true
+    },
+    {
+      "InstanceName": "PlayerList",
+      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "PositionedObjectList (Generic)",
+      "SourceClassGenericType": "Entities\\Player",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "DefinedByBase": true,
+      "InstantiatedByBase": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "Player",
+          "SourceClassType": "Entities\\Player",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "bool"
+            }
+          ],
+          "InstructionSaves": [],
+          "SourceType": 1,
+          "ExposedInDerived": true,
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true,
+          "DefinedByBase": true,
+          "InstantiatedByBase": true
+        }
+      ]
     }
   ],
   "Name": "Screens\\Level1",

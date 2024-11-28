@@ -22,211 +22,6 @@
     </Frame>
   </AnimationChain>
   <AnimationChain>
-    <Name>Fire</Name>
-    <Frame>
-      <TextureName>../../FreddieTileset.png</TextureName>
-      <FrameLength>1</FrameLength>
-      <LeftCoordinate>48</LeftCoordinate>
-      <RightCoordinate>64</RightCoordinate>
-      <TopCoordinate>335</TopCoordinate>
-      <BottomCoordinate>351</BottomCoordinate>
-      <ShapeCollectionSave>
-        <AxisAlignedRectangleSaves>
-          <AxisAlignedRectangleSave>
-            <X>0</X>
-            <Y>-1000</Y>
-            <Z>0</Z>
-            <ScaleX>0</ScaleX>
-            <ScaleY>0</ScaleY>
-            <Name>AxisAlignedRectangleInstance</Name>
-            <Alpha>1</Alpha>
-            <Red>1</Red>
-            <Green>1</Green>
-            <Blue>1</Blue>
-          </AxisAlignedRectangleSave>
-        </AxisAlignedRectangleSaves>
-        <AxisAlignedCubeSaves />
-        <PolygonSaves />
-        <CircleSaves />
-        <SphereSaves />
-      </ShapeCollectionSave>
-    </Frame>
-    <Frame>
-      <TextureName>../../FreddieTileset.png</TextureName>
-      <FrameLength>0.1</FrameLength>
-      <LeftCoordinate>0</LeftCoordinate>
-      <RightCoordinate>16</RightCoordinate>
-      <TopCoordinate>352</TopCoordinate>
-      <BottomCoordinate>384</BottomCoordinate>
-      <RelativeY>8</RelativeY>
-      <ShapeCollectionSave>
-        <AxisAlignedRectangleSaves>
-          <AxisAlignedRectangleSave>
-            <X>0.625</X>
-            <Y>-3.875</Y>
-            <Z>0</Z>
-            <ScaleX>4</ScaleX>
-            <ScaleY>4</ScaleY>
-            <Name>AxisAlignedRectangleInstance</Name>
-            <Alpha>1</Alpha>
-            <Red>1</Red>
-            <Green>1</Green>
-            <Blue>1</Blue>
-          </AxisAlignedRectangleSave>
-        </AxisAlignedRectangleSaves>
-        <AxisAlignedCubeSaves />
-        <PolygonSaves />
-        <CircleSaves />
-        <SphereSaves />
-      </ShapeCollectionSave>
-    </Frame>
-    <Frame>
-      <TextureName>../../FreddieTileset.png</TextureName>
-      <FrameLength>0.1</FrameLength>
-      <LeftCoordinate>16</LeftCoordinate>
-      <RightCoordinate>32</RightCoordinate>
-      <TopCoordinate>352</TopCoordinate>
-      <BottomCoordinate>384</BottomCoordinate>
-      <RelativeY>8</RelativeY>
-      <ShapeCollectionSave>
-        <AxisAlignedRectangleSaves>
-          <AxisAlignedRectangleSave>
-            <X>0.625</X>
-            <Y>-1.125</Y>
-            <Z>0</Z>
-            <ScaleX>4</ScaleX>
-            <ScaleY>7</ScaleY>
-            <Name>AxisAlignedRectangleInstance</Name>
-            <Alpha>1</Alpha>
-            <Red>1</Red>
-            <Green>1</Green>
-            <Blue>1</Blue>
-          </AxisAlignedRectangleSave>
-        </AxisAlignedRectangleSaves>
-        <AxisAlignedCubeSaves />
-        <PolygonSaves />
-        <CircleSaves />
-        <SphereSaves />
-      </ShapeCollectionSave>
-    </Frame>
-    <Frame>
-      <TextureName>../../FreddieTileset.png</TextureName>
-      <FrameLength>0.1</FrameLength>
-      <LeftCoordinate>32</LeftCoordinate>
-      <RightCoordinate>48</RightCoordinate>
-      <TopCoordinate>352</TopCoordinate>
-      <BottomCoordinate>384</BottomCoordinate>
-      <RelativeY>8</RelativeY>
-      <ShapeCollectionSave>
-        <AxisAlignedRectangleSaves>
-          <AxisAlignedRectangleSave>
-            <X>0</X>
-            <Y>4</Y>
-            <Z>0</Z>
-            <ScaleX>4</ScaleX>
-            <ScaleY>12</ScaleY>
-            <Name>AxisAlignedRectangleInstance</Name>
-            <Alpha>1</Alpha>
-            <Red>1</Red>
-            <Green>1</Green>
-            <Blue>1</Blue>
-          </AxisAlignedRectangleSave>
-        </AxisAlignedRectangleSaves>
-        <AxisAlignedCubeSaves />
-        <PolygonSaves />
-        <CircleSaves />
-        <SphereSaves />
-      </ShapeCollectionSave>
-    </Frame>
-    <Frame>
-      <TextureName>../../FreddieTileset.png</TextureName>
-      <FrameLength>0.1</FrameLength>
-      <LeftCoordinate>48</LeftCoordinate>
-      <RightCoordinate>64</RightCoordinate>
-      <TopCoordinate>352</TopCoordinate>
-      <BottomCoordinate>384</BottomCoordinate>
-      <RelativeY>8</RelativeY>
-      <ShapeCollectionSave>
-        <AxisAlignedRectangleSaves>
-          <AxisAlignedRectangleSave>
-            <X>0</X>
-            <Y>6</Y>
-            <Z>0</Z>
-            <ScaleX>4</ScaleX>
-            <ScaleY>14</ScaleY>
-            <Name>AxisAlignedRectangleInstance</Name>
-            <Alpha>1</Alpha>
-            <Red>1</Red>
-            <Green>1</Green>
-            <Blue>1</Blue>
-          </AxisAlignedRectangleSave>
-        </AxisAlignedRectangleSaves>
-        <AxisAlignedCubeSaves />
-        <PolygonSaves />
-        <CircleSaves />
-        <SphereSaves />
-      </ShapeCollectionSave>
-    </Frame>
-    <Frame>
-      <TextureName>../../FreddieTileset.png</TextureName>
-      <FrameLength>0.1</FrameLength>
-      <LeftCoordinate>64</LeftCoordinate>
-      <RightCoordinate>80</RightCoordinate>
-      <TopCoordinate>352</TopCoordinate>
-      <BottomCoordinate>384</BottomCoordinate>
-      <RelativeY>8</RelativeY>
-      <ShapeCollectionSave>
-        <AxisAlignedRectangleSaves>
-          <AxisAlignedRectangleSave>
-            <X>0</X>
-            <Y>8</Y>
-            <Z>0</Z>
-            <ScaleX>7</ScaleX>
-            <ScaleY>15</ScaleY>
-            <Name>AxisAlignedRectangleInstance</Name>
-            <Alpha>1</Alpha>
-            <Red>1</Red>
-            <Green>1</Green>
-            <Blue>1</Blue>
-          </AxisAlignedRectangleSave>
-        </AxisAlignedRectangleSaves>
-        <AxisAlignedCubeSaves />
-        <PolygonSaves />
-        <CircleSaves />
-        <SphereSaves />
-      </ShapeCollectionSave>
-    </Frame>
-    <Frame>
-      <TextureName>../../FreddieTileset.png</TextureName>
-      <FrameLength>0.1</FrameLength>
-      <LeftCoordinate>80</LeftCoordinate>
-      <RightCoordinate>96</RightCoordinate>
-      <TopCoordinate>352</TopCoordinate>
-      <BottomCoordinate>384</BottomCoordinate>
-      <RelativeY>8</RelativeY>
-      <ShapeCollectionSave>
-        <AxisAlignedRectangleSaves>
-          <AxisAlignedRectangleSave>
-            <X>0</X>
-            <Y>7</Y>
-            <Z>0</Z>
-            <ScaleX>8</ScaleX>
-            <ScaleY>15</ScaleY>
-            <Name>AxisAlignedRectangleInstance</Name>
-            <Alpha>1</Alpha>
-            <Red>1</Red>
-            <Green>1</Green>
-            <Blue>1</Blue>
-          </AxisAlignedRectangleSave>
-        </AxisAlignedRectangleSaves>
-        <AxisAlignedCubeSaves />
-        <PolygonSaves />
-        <CircleSaves />
-        <SphereSaves />
-      </ShapeCollectionSave>
-    </Frame>
-  </AnimationChain>
-  <AnimationChain>
     <Name>Ball</Name>
     <Frame>
       <TextureName>../../freddietileset.png</TextureName>
@@ -290,7 +85,7 @@
     </Frame>
   </AnimationChain>
   <AnimationChain>
-    <Name>BlueFire</Name>
+    <Name>BlueFireDown</Name>
     <Frame>
       <TextureName>../../freddietileset.png</TextureName>
       <FrameLength>0.1</FrameLength>
@@ -377,7 +172,7 @@
     </Frame>
   </AnimationChain>
   <AnimationChain>
-    <Name>BlueFireLaunch</Name>
+    <Name>BlueFireLaunchDown</Name>
     <Frame>
       <TextureName>../../freddietileset.png</TextureName>
       <FrameLength>0.1</FrameLength>
@@ -456,6 +251,217 @@
             <Blue>1</Blue>
           </AxisAlignedRectangleSave>
         </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>144</LeftCoordinate>
+      <RightCoordinate>160</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>384</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>BlueFireUp</Name>
+    <Frame>
+      <FlipVertical>true</FlipVertical>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>144</LeftCoordinate>
+      <RightCoordinate>160</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>384</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>2.875</Y>
+            <Z>0</Z>
+            <ScaleX>8.000002</ScaleX>
+            <ScaleY>13</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipVertical>true</FlipVertical>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>160</LeftCoordinate>
+      <RightCoordinate>176</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>384</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0.9166667</X>
+            <Y>2.91666651</Y>
+            <Z>0</Z>
+            <ScaleX>7</ScaleX>
+            <ScaleY>13</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipVertical>true</FlipVertical>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>176</LeftCoordinate>
+      <RightCoordinate>192</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>384</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0.25</X>
+            <Y>2.9375</Y>
+            <Z>0</Z>
+            <ScaleX>7</ScaleX>
+            <ScaleY>13</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+  </AnimationChain>
+  <AnimationChain>
+    <Name>BlueFireLaunchUp</Name>
+    <Frame>
+      <FlipVertical>true</FlipVertical>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>96</LeftCoordinate>
+      <RightCoordinate>112</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>384</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0.625</X>
+            <Y>-10.249999</Y>
+            <Z>0</Z>
+            <ScaleX>3</ScaleX>
+            <ScaleY>5</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipVertical>true</FlipVertical>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>112</LeftCoordinate>
+      <RightCoordinate>128</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>384</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0.749999642</X>
+            <Y>-6</Y>
+            <Z>0</Z>
+            <ScaleX>4</ScaleX>
+            <ScaleY>10</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipVertical>true</FlipVertical>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>128</LeftCoordinate>
+      <RightCoordinate>144</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>384</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves>
+          <AxisAlignedRectangleSave>
+            <X>0</X>
+            <Y>-0</Y>
+            <Z>0</Z>
+            <ScaleX>7</ScaleX>
+            <ScaleY>13</ScaleY>
+            <Name>AxisAlignedRectangleInstance</Name>
+            <Alpha>1</Alpha>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+          </AxisAlignedRectangleSave>
+        </AxisAlignedRectangleSaves>
+        <AxisAlignedCubeSaves />
+        <PolygonSaves />
+        <CircleSaves />
+        <SphereSaves />
+      </ShapeCollectionSave>
+    </Frame>
+    <Frame>
+      <FlipVertical>true</FlipVertical>
+      <TextureName>../../freddietileset.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>144</LeftCoordinate>
+      <RightCoordinate>160</RightCoordinate>
+      <TopCoordinate>352</TopCoordinate>
+      <BottomCoordinate>384</BottomCoordinate>
+      <ShapeCollectionSave>
+        <AxisAlignedRectangleSaves />
         <AxisAlignedCubeSaves />
         <PolygonSaves />
         <CircleSaves />

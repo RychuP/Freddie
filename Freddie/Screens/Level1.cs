@@ -17,28 +17,27 @@ using Microsoft.Xna.Framework;
 using Freddie.Entities;
 
 
-namespace Freddie.Screens
+namespace Freddie.Screens;
+
+public partial class Level1
 {
-    public partial class Level1
+    private void CustomInitialize()
     {
-        private void CustomInitialize()
-        {
-            
-        }
+        
+    }
 
-        private void CustomActivity(bool firstTimeCalled)
-        {
-            
-        }
+    private void CustomActivity(bool firstTimeCalled)
+    {
+        
+    }
 
-        private void CustomDestroy()
-        {
-            
-        }
+    private void CustomDestroy()
+    {
+        
+    }
 
-        private static void CustomLoadStaticContent(string contentManagerName)
-        {
-            
-        }
+    private static void CustomLoadStaticContent(string contentManagerName)
+    {
+        
     }
 }

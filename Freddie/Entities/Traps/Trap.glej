@@ -6,7 +6,7 @@
   "Is2D": true,
   "ReferencedFiles": [
     {
-      "Name": "Entities/Projectiles/ProjectileAnimations.achx",
+      "Name": "Entities/Traps/TrapAnimations.achx",
       "IsSharedStatic": true,
       "RuntimeType": "FlatRedBall.Graphics.Animation.AnimationChainList",
       "ProjectsToExcludeFrom": []
@@ -109,17 +109,6 @@
       "DefaultValue": 1.0,
       "SetByDerived": true,
       "Category": "Damage Dealing"
-    },
-    {
-      "Properties": [
-        {
-          "Name": "Type",
-          "Value": "float",
-          "Type": "String"
-        }
-      ],
-      "Name": "Speed",
-      "SetByDerived": true
     }
   ],
   "Properties": [
@@ -160,7 +149,7 @@
       "GenerateTimedEmit": true
     }
   ],
-  "Name": "Entities\\Projectiles\\Projectile",
+  "Name": "Entities\\Traps\\Trap",
   "CustomClassesForExport": [],
   "IsAbstract": true
 }

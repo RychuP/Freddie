@@ -3,26 +3,19 @@
     "GLUE"
   ],
   "Source": "GLUE",
+  "BaseEntity": "Entities\\Spawners\\ProjectileSpawners\\ProjectileSpawner",
   "CreatedByOtherEntities": true,
   "Is2D": true,
-  "ReferencedFiles": [
-    {
-      "Name": "Entities/Projectiles/ProjectileAnimations.achx",
-      "IsSharedStatic": true,
-      "RuntimeType": "FlatRedBall.Graphics.Animation.AnimationChainList",
-      "ProjectsToExcludeFrom": []
-    }
-  ],
   "CustomVariables": [
     {
       "Properties": [
         {
           "Name": "Type",
-          "Value": "float",
+          "Value": "string",
           "Type": "String"
         }
       ],
-      "Name": "X",
+      "Name": "Direction",
       "SetByDerived": true
     },
     {
@@ -33,18 +26,7 @@
           "Type": "String"
         }
       ],
-      "Name": "Y",
-      "SetByDerived": true
-    },
-    {
-      "Properties": [
-        {
-          "Name": "Type",
-          "Value": "float",
-          "Type": "String"
-        }
-      ],
-      "Name": "Z",
+      "Name": "StartDelay",
       "SetByDerived": true
     }
   ],
@@ -82,9 +64,10 @@
       "SourceType": 2,
       "SourceFile": "Sprite",
       "AttachToContainer": true,
-      "GenerateTimedEmit": true
+      "GenerateTimedEmit": true,
+      "DefinedByBase": true
     }
   ],
-  "Name": "Entities\\Spawners\\ProjectileSpawner",
+  "Name": "Entities\\Spawners\\ProjectileSpawners\\BlueFireSpawner",
   "CustomClassesForExport": []
 }

@@ -9,11 +9,10 @@ using FlatRedBall.Graphics.Animation;
 using FlatRedBall.Graphics.Particle;
 using FlatRedBall.Math.Geometry;
 using Microsoft.Xna.Framework;
-using FlatRedBall.Gui;
 
-namespace Freddie.Entities
+namespace Freddie.Entities.Traps
 {
-    public partial class TestCollision
+    public partial class Pit
     {
         /// <summary>
         /// Initialization logic which is executed only one time for this Entity (unless the Entity is pooled).
@@ -27,17 +26,7 @@ namespace Freddie.Entities
 
         private void CustomActivity()
         {
-            if (GuiManager.Cursor.PrimaryClick)
-            {
-                Position = GuiManager.Cursor.WorldPosition.ToVector3();
-            }
-
-            if (LastFrameItemsCollidedAgainst.Contains("object4_autoname"))
-            {
-                AxisAlignedRectangleInstance.Color = Color.Red;
-            }
-            else
-                AxisAlignedRectangleInstance.Color = Color.White;
+            
         }
 
         private void CustomDestroy()

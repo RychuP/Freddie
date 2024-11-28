@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Freddie.DataTypes;
 
-enum ZLevel
+static class Strings
 {
-    Props,
-    Collectables,
-    Enemies,
-    Projectiles,
-    Player
+    public static string[] Directions = { "Up", "Down", "Left", "Right" };
 }

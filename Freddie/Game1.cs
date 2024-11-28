@@ -62,7 +62,7 @@ namespace Freddie
         {
             FlatRedBallServices.Update(gameTime);
 
-            FlatRedBall.Screens.ScreenManager.Activity();
+            ScreenManager.Activity();
 
             GeneratedUpdate(gameTime);
 

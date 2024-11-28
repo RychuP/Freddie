@@ -10,9 +10,9 @@ using FlatRedBall.Graphics.Particle;
 using FlatRedBall.Math.Geometry;
 using Microsoft.Xna.Framework;
 
-namespace Freddie.Entities.Checkpoints;
+namespace Freddie.Entities.Traps;
 
-public partial class Door
+public partial class Trap
 {
     /// <summary>
     /// Initialization logic which is executed only one time for this Entity (unless the Entity is pooled).
@@ -21,7 +21,7 @@ public partial class Door
     /// </summary>
     private void CustomInitialize()
     {
-        
+        DamageToDeal = 1;
     }
 
     private void CustomActivity()
@@ -38,7 +38,4 @@ public partial class Door
     {
         
     }
-
-    public void Open() => SpriteInstance.CurrentChainName = "Open";
-    public void Close() => SpriteInstance.CurrentChainName = "Closed";
 }

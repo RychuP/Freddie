@@ -19,12 +19,14 @@ using System.Diagnostics;
 using Freddie.Entities.Checkpoints;
 using Freddie.Entities.Projectiles;
 using Freddie.Entities;
+using Freddie.Entities.Traps;
+using Freddie.Entities.Spawners.ProjectileSpawners;
 
 namespace Freddie.Screens;
 
 public partial class GameScreen
 {
-    Checkpoint CurrentCheckpoint;
+    protected Checkpoint CurrentCheckpoint { get; set; }
 
     private void CustomInitialize()
     {
@@ -36,12 +38,24 @@ public partial class GameScreen
 
     private void CustomActivity(bool firstTimeCalled)
     {
-        
+        //if (GuiManager.Cursor.PrimaryClick)
+        //{
+        //    var z = Player.Z;
+        //    Player.Position = GuiManager.Cursor.WorldPosition.ToVector3();
+        //    Player.Z = z;
+        //}
+        //Debug();
     }
 
     private void CustomDestroy()
     {
-        
+        var x = SpriteManager.AutomaticallyUpdatedSprites.Count;
+
+        for (int i = SpriteManager.AutomaticallyUpdatedSprites.Count - 1; i >= 0 ; i--)
+        {
+            var sprite = SpriteManager.AutomaticallyUpdatedSprites[i];
+            SpriteManager.RemoveSprite(sprite);
+        }
     }
 
     private static void CustomLoadStaticContent(string contentManagerName)
@@ -54,9 +68,7 @@ public partial class GameScreen
         FlatRedBall.Debugging.Debugger.TextBlue = 0;
         FlatRedBall.Debugging.Debugger.TextGreen = 0;
         FlatRedBall.Debugging.Debugger.TextRed = 0;
-        FlatRedBall.Debugging.Debugger.CommandLineWrite($"Map.Z = {Map.Z}");
-        FlatRedBall.Debugging.Debugger.CommandLineWrite($"Door.Z = {DoorList[0].Z}");
-        FlatRedBall.Debugging.Debugger.CommandLineWrite($"Player.Z = {Player.Z}");
+        FlatRedBall.Debugging.Debugger.CommandLineWrite(Player.CurrentHealth);
     }
 
     void SetInitialValues()
@@ -66,8 +78,10 @@ public partial class GameScreen
 
     void SetZLevels()
     {
-        SetZ(DoorList, ZLevel.Buildings);
+        SetZ(CheckpointList, ZLevel.Props);
         SetZ(CollectableList, ZLevel.Collectables);
+        SetZ(EnemyList, ZLevel.Enemies);
+        SetZ(ProjectileList, ZLevel.Projectiles);
         SetZ(Player, ZLevel.Player);
     }
 
@@ -82,14 +96,37 @@ public partial class GameScreen
         posObject.Z = (int)level;
     }
 
+    /// <summary>
+    /// Initializes traps after the custom properties from Tiled have been set.
+    /// </summary>
     void InitializeTraps()
     {
-        foreach (var projectile in ProjectileList)
+        foreach (var trap in TrapList)
         {
-            if (projectile is Fire fire)
+            if (trap is Fire fire)
             {
                 fire.DelayAnimationStart();
             }
         }
+
+        foreach (var projectileSpawner in ProjectileSpawnerList)
+        {
+            if (projectileSpawner is BlueFireSpawner blueFireSpawner)
+            {
+                blueFireSpawner.InitializeFromTiled();
+            }
+        }
+    }
+
+    void UpdateLifeMeter()
+    {
+        GumScreen.CurrentHealthPercentState = Player.CurrentHealth switch
+        {
+            1 => GumRuntimes.GameScreenGumRuntime.HealthPercent.One,
+            2 => GumRuntimes.GameScreenGumRuntime.HealthPercent.Two,
+            3 => GumRuntimes.GameScreenGumRuntime.HealthPercent.Three,
+            4 => GumRuntimes.GameScreenGumRuntime.HealthPercent.Four,
+            _ => GumRuntimes.GameScreenGumRuntime.HealthPercent.Zero
+        };
     }
 }

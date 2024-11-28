@@ -69,10 +69,23 @@
         }
       ],
       "Name": "DamageToDeal",
-      "DefaultValue": 10.0,
+      "DefaultValue": 1.0,
       "SetByDerived": true,
       "DefinedByBase": true,
       "Category": "Damage Dealing"
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "Speed",
+      "DefaultValue": 100.0,
+      "SetByDerived": true,
+      "DefinedByBase": true
     },
     {
       "Properties": [
@@ -88,7 +101,7 @@
         }
       ],
       "Name": "CurrentSpriteChainName",
-      "DefaultValue": "BlueFire",
+      "DefaultValue": "",
       "SetByDerived": true,
       "SourceObject": "SpriteInstance",
       "SourceObjectProperty": "CurrentChainName",
@@ -116,7 +129,7 @@
         {
           "Type": "string",
           "Member": "CurrentChainName",
-          "Value": "BlueFire",
+          "Value": "",
           "Time": 0.0
         },
         {
@@ -137,36 +150,6 @@
       "AttachToContainer": true,
       "GenerateTimedEmit": true,
       "DefinedByBase": true
-    }
-  ],
-  "StateCategoryList": [
-    {
-      "Name": "SpriteAnimationCategory",
-      "States": [
-        {
-          "Name": "Launch",
-          "InstructionSaves": [
-            {
-              "Type": "string",
-              "Member": "CurrentSpriteChainName",
-              "Value": "BlueFireLaunchDown",
-              "Time": 0.0
-            }
-          ]
-        },
-        {
-          "Name": "FullMotion",
-          "InstructionSaves": []
-        }
-      ],
-      "ExcludedVariables": [
-        "X",
-        "Y",
-        "Z",
-        "TeamIndex",
-        "SecondsBetweenDamage",
-        "DamageToDeal"
-      ]
     }
   ],
   "Name": "Entities\\Projectiles\\BlueFire",

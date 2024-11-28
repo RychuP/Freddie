@@ -153,7 +153,7 @@
         }
       ],
       "Name": "DamageToDeal",
-      "DefaultValue": 10.0,
+      "DefaultValue": 1.0,
       "SetByDerived": true,
       "Category": "Damage Dealing"
     },

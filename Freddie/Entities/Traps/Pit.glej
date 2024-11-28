@@ -3,7 +3,7 @@
     "GLUE"
   ],
   "Source": "GLUE",
-  "BaseEntity": "Entities\\Projectiles\\Projectile",
+  "BaseEntity": "Entities\\Traps\\Trap",
   "CreatedByOtherEntities": true,
   "Is2D": true,
   "CustomVariables": [
@@ -69,59 +69,13 @@
         }
       ],
       "Name": "DamageToDeal",
-      "DefaultValue": 10.0,
+      "DefaultValue": 1.0,
       "SetByDerived": true,
       "DefinedByBase": true,
       "Category": "Damage Dealing"
-    },
-    {
-      "Properties": [
-        {
-          "Name": "Type",
-          "Value": "float",
-          "Type": "String"
-        }
-      ],
-      "Name": "StartDelay",
-      "SetByDerived": true
     }
   ],
   "NamedObjects": [
-    {
-      "InstanceName": "BaseSprite",
-      "SourceClassType": "FlatRedBall.Sprite",
-      "Properties": [
-        {
-          "Name": "AssociateWithFactory",
-          "Value": true,
-          "Type": "bool"
-        }
-      ],
-      "InstructionSaves": [
-        {
-          "Type": "float",
-          "Member": "TextureScale",
-          "Value": 1.0,
-          "Time": 0.0
-        },
-        {
-          "Type": "AnimationChainList",
-          "Member": "AnimationChains",
-          "Value": "ProjectileAnimations",
-          "Time": 0.0
-        },
-        {
-          "Type": "string",
-          "Member": "CurrentChainName",
-          "Value": "ProjectileSpawner",
-          "Time": 0.0
-        }
-      ],
-      "SourceType": 2,
-      "SourceFile": "Sprite",
-      "AttachToContainer": true,
-      "GenerateTimedEmit": true
-    },
     {
       "InstanceName": "SpriteInstance",
       "SourceClassType": "FlatRedBall.Sprite",
@@ -133,30 +87,6 @@
         }
       ],
       "InstructionSaves": [
-        {
-          "Type": "bool",
-          "Member": "Animate",
-          "Value": false,
-          "Time": 0.0
-        },
-        {
-          "Type": "AnimationChainList",
-          "Member": "AnimationChains",
-          "Value": "ProjectileAnimations",
-          "Time": 0.0
-        },
-        {
-          "Type": "string",
-          "Member": "CurrentChainName",
-          "Value": "Fire",
-          "Time": 0.0
-        },
-        {
-          "Type": "bool",
-          "Member": "SetCollisionFromAnimation",
-          "Value": true,
-          "Time": 0.0
-        },
         {
           "Type": "float",
           "Member": "TextureScale",
@@ -171,6 +101,6 @@
       "DefinedByBase": true
     }
   ],
-  "Name": "Entities\\Projectiles\\Fire",
+  "Name": "Entities\\Traps\\Pit",
   "CustomClassesForExport": []
 }

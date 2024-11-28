@@ -10,6 +10,9 @@ using FlatRedBall.Graphics.Particle;
 using FlatRedBall.Math.Geometry;
 using Microsoft.Xna.Framework;
 using Keys = Microsoft.Xna.Framework.Input.Keys;
+using Freddie.Entities.Checkpoints;
+using System.Threading.Tasks;
+using FlatRedBall.Entities;
 
 namespace Freddie.Entities;
 
@@ -27,6 +30,9 @@ public partial class Player
                 RunInput.IsDown;
 
     int _coins;
+    /// <summary>
+    /// Number of coins collected.
+    /// </summary>
     public int Coins
     {
         get => _coins;
@@ -42,7 +48,7 @@ public partial class Player
 
     private void CustomInitialize()
     {
-        
+        ReactToDamageReceived += OnDamageReceived;
     }
 
     partial void CustomInitializePlatformerInput()
@@ -100,6 +106,28 @@ public partial class Player
         }
     }
 
+    /// <summary>
+    /// Respawn action after loosing a health point.
+    /// </summary>
+    /// <param name="checkpoint"></param>
+    public async void Respawn(Checkpoint checkpoint)
+    {
+        Velocity = Vector3.Zero;
+        float offsetY = checkpoint.AxisAlignedRectangleInstance.Height + SpriteInstance.Height;
+        float y = checkpoint.Position.Y + offsetY;
+        Position = new Vector3(checkpoint.Position.X, y, Z);
+        InputEnabled = false;
+        await Task.Run(CheckIsOnGround);
+        InputEnabled = true;
+    }
+
+    Task CheckIsOnGround()
+    {
+        while (!IsOnGround)
+            continue;
+        return Task.CompletedTask;
+    }
+
     void OnCoinsChanged(int prevCoins, int newCoins)
     {
         var args = new CoinsEventArgs()
@@ -108,6 +136,11 @@ public partial class Player
             NewCoins = newCoins
         };
         CoinsChanged?.Invoke(this, args);
+    }
+
+    void OnDamageReceived(decimal damage, IDamageArea damageArea)
+    {
+
     }
 }
 

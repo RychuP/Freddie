@@ -126,16 +126,22 @@
       "Name": "Entities\\Projectiles\\BlueFire"
     },
     {
-      "Name": "Entities\\Projectiles\\Fire"
-    },
-    {
       "Name": "Entities\\Projectiles\\Projectile"
     },
     {
-      "Name": "Entities\\Spawners\\ProjectileSpawner"
+      "Name": "Entities\\Spawners\\ProjectileSpawners\\BlueFireSpawner"
     },
     {
-      "Name": "Entities\\TestCollision"
+      "Name": "Entities\\Spawners\\ProjectileSpawners\\ProjectileSpawner"
+    },
+    {
+      "Name": "Entities\\Traps\\Fire"
+    },
+    {
+      "Name": "Entities\\Traps\\Pit"
+    },
+    {
+      "Name": "Entities\\Traps\\Trap"
     }
   ],
   "Bookmarks": [],

@@ -13,6 +13,9 @@ using Freddie.Entities;
 using Freddie.Entities.Projectiles;
 using Freddie.Screens;
 using Microsoft.Xna.Framework;
+using FlatRedBall.Math.Geometry;
+using FlatRedBall.Entities;
+using Freddie.Entities.Traps;
 
 namespace Freddie.Screens;
 
@@ -21,6 +24,8 @@ public partial class GameScreen
     void RegisterEventHandlers()
     {
         Player.CoinsChanged += Player_OnCoinsChanged;
+        Player.ReactToDamageReceived += Player_OnDamageReceived;
+        Player.Died += Player_OnDied; 
     }
 
     void Player_OnCoinsChanged(object o, CoinsEventArgs e)
@@ -28,9 +33,16 @@ public partial class GameScreen
         GumScreen.CoinCounter.CounterText = e.NewCoins.ToString();
     }
 
-    void OnTestCollisionVsProjectileCollided (TestCollision testCollision, Projectile projectile) 
+    void Player_OnDamageReceived(decimal damage, IDamageArea damageArea)
     {
+        UpdateLifeMeter();
+        if (Player.CurrentHealth > 0)
+            Player.Respawn(CurrentCheckpoint);
+    }
 
+    void Player_OnDied(decimal damage, IDamageArea damageArea)
+    {
+        RestartScreen();
     }
 
     void OnPlayerVsCheckpointCollided (Player player, Checkpoint checkpoint) 
@@ -42,11 +54,19 @@ public partial class GameScreen
     
     void OnPlayerVsCollectableCollided (Player player, Collectable collectable) 
     {
-        if (collectable is Coin coin)
+        if (collectable is Coin)
         {
             player.Coins++;
         }
         collectable.Destroy();
+    }
+
+    void OnProjectileVsTrapCollided (Projectile projectile, Trap trap) 
+    {
+        if (trap is Pit)
+        {
+            projectile.Destroy();
+        }
     }
 
 }

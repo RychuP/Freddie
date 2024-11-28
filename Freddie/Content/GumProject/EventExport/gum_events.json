@@ -518,6 +518,55 @@
         "ElementType": "Screens",
         "EventType": 7,
         "TimestampUtc": "2024-11-26T19:01:56.2237283Z"
+      },
+      {
+        "NewName": "HealthPercent",
+        "OldName": "PercentCategory",
+        "ElementType": "Screens",
+        "EventType": 4,
+        "TimestampUtc": "2024-11-27T19:08:08.7856931Z"
+      },
+      {
+        "NewName": "Zero",
+        "OldName": "0",
+        "ElementType": "Screens",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-27T19:09:44.5686244Z"
+      },
+      {
+        "NewName": "One",
+        "OldName": "25",
+        "ElementType": "Screens",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-27T19:09:52.3299743Z"
+      },
+      {
+        "NewName": "Three",
+        "OldName": "50",
+        "ElementType": "Screens",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-27T19:09:59.6748308Z"
+      },
+      {
+        "NewName": "Two",
+        "OldName": "Three",
+        "ElementType": "Screens",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-27T19:10:05.7573379Z"
+      },
+      {
+        "NewName": "Three",
+        "OldName": "75",
+        "ElementType": "Screens",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-27T19:10:11.5463588Z"
+      },
+      {
+        "NewName": "Four",
+        "OldName": "100",
+        "ElementType": "Screens",
+        "EventType": 3,
+        "TimestampUtc": "2024-11-27T19:10:16.3762901Z"
       }
     ]
   }

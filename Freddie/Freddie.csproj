@@ -45,13 +45,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>ProjectileAnimations</Name>
     </None>
+    <None Include="Content\Entities\Traps\TrapAnimations.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>TrapAnimations</Name>
+    </None>
     <None Include="Content\Freddie.tsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Freddie</Name>
     </None>
-    <None Include="Content\freddietileset.png">
+    <None Include="Content\FreddieTileset.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>freddietileset</Name>
+      <Name>FreddieTileset</Name>
     </None>
     <None Include="Content\GumProject\Components\Controls\ButtonClose.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -364,6 +368,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataTypes\PlatformerValues.Generated.cs" />
+    <Compile Include="DataTypes\Strings.cs" />
     <Compile Include="DataTypes\TileMapInfo.Generated.cs" />
     <Compile Include="DataTypes\ZLevel.cs" />
     <Compile Include="Entities\Checkpoints\Checkpoint.cs" />
@@ -402,31 +407,39 @@
     <Compile Include="Entities\Projectiles\BlueFire.Generated.cs">
       <DependentUpon>BlueFire.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entities\Projectiles\Fire.cs" />
-    <Compile Include="Entities\Projectiles\Fire.Generated.cs">
+    <Compile Include="Entities\Spawners\ProjectileSpawners\BlueFireSpawner.cs" />
+    <Compile Include="Entities\Spawners\ProjectileSpawners\BlueFireSpawner.Generated.cs">
+      <DependentUpon>BlueFireSpawner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Traps\Fire.cs" />
+    <Compile Include="Entities\Traps\Fire.Generated.cs">
       <DependentUpon>Fire.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entities\Spawners\ProjectileSpawner.cs" />
-    <Compile Include="Entities\Spawners\ProjectileSpawner.Generated.cs">
+    <Compile Include="Entities\Spawners\ProjectileSpawners\ProjectileSpawner.cs" />
+    <Compile Include="Entities\Spawners\ProjectileSpawners\ProjectileSpawner.Generated.cs">
       <DependentUpon>ProjectileSpawner.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Projectiles\Projectile.cs" />
     <Compile Include="Entities\Projectiles\Projectile.Generated.cs">
       <DependentUpon>Projectile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entities\TestCollision.cs" />
-    <Compile Include="Entities\TestCollision.Generated.cs">
-      <DependentUpon>TestCollision.cs</DependentUpon>
+    <Compile Include="Entities\Traps\Pit.cs" />
+    <Compile Include="Entities\Traps\Pit.Generated.cs">
+      <DependentUpon>Pit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Traps\Trap.cs" />
+    <Compile Include="Entities\Traps\Trap.Generated.cs">
+      <DependentUpon>Trap.cs</DependentUpon>
     </Compile>
     <Compile Include="Factories\BallFactory.Generated.cs" />
     <Compile Include="Factories\BlueFireFactory.Generated.cs" />
+    <Compile Include="Factories\BlueFireSpawnerFactory.Generated.cs" />
     <Compile Include="Factories\CoinFactory.Generated.cs" />
     <Compile Include="Factories\DoorFactory.Generated.cs" />
     <Compile Include="Factories\FireFactory.Generated.cs" />
     <Compile Include="Factories\FlagFactory.Generated.cs" />
-    <Compile Include="Factories\ProjectileSpawnerFactory.Generated.cs" />
+    <Compile Include="Factories\PitFactory.Generated.cs" />
     <Compile Include="Factories\PlayerFactory.Generated.cs" />
-    <Compile Include="Factories\TestCollisionFactory.Generated.cs" />
     <Compile Include="FileAliases.Generated.cs" />
     <Compile Include="Forms\Screens\GameScreenGumForms.Generated.cs" />
     <Compile Include="Forms\Screens\Level1GumForms.Generated.cs" />

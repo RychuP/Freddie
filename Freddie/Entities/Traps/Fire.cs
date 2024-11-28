@@ -10,7 +10,7 @@ using FlatRedBall.Graphics.Particle;
 using FlatRedBall.Math.Geometry;
 using Microsoft.Xna.Framework;
 
-namespace Freddie.Entities.Projectiles;
+namespace Freddie.Entities.Traps;
 
 public partial class Fire
 {
@@ -26,8 +26,8 @@ public partial class Fire
 
     private void CustomActivity()
     {
-        SpriteInstance.CurrentFrame?.ShapeCollectionSave?.SetValuesOn(
-            Collision, this, createMissingShapes: true);
+        // apply collision shapes defined in the animation file
+        SpriteInstance.CurrentFrame?.ShapeCollectionSave?.SetValuesOn(Collision, this, true);
         ForceUpdateDependenciesDeep();
     }
 

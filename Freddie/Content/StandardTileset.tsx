@@ -20,7 +20,12 @@
    <property name="StartDelay" type="float" value="0"/>
   </properties>
  </tile>
- <tile id="102" type="BlueFireDown"/>
+ <tile id="102" type="BlueFireSpawner">
+  <properties>
+   <property name="Direction" value="0"/>
+   <property name="StartDelay" type="float" value="0"/>
+  </properties>
+ </tile>
  <tile id="256">
   <properties>
    <property name="MatchType" value="Empty"/>

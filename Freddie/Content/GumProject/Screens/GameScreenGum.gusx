@@ -172,10 +172,10 @@
     </Variable>
   </State>
   <Category>
-    <Name>PercentCategory</Name>
+    <Name>HealthPercent</Name>
     <IsSetRecursively>false</IsSetRecursively>
     <State>
-      <Name>0</Name>
+      <Name>Zero</Name>
       <Variable>
         <Type>string</Type>
         <Name>LifeIconInstance.ContentCategoryState</Name>
@@ -202,7 +202,7 @@
       </Variable>
     </State>
     <State>
-      <Name>25</Name>
+      <Name>One</Name>
       <Variable>
         <Type>ContentCategory</Type>
         <Name>LifeIconInstance.ContentCategoryState</Name>
@@ -229,7 +229,7 @@
       </Variable>
     </State>
     <State>
-      <Name>50</Name>
+      <Name>Two</Name>
       <Variable>
         <Type>ContentCategory</Type>
         <Name>LifeIconInstance.ContentCategoryState</Name>
@@ -256,7 +256,7 @@
       </Variable>
     </State>
     <State>
-      <Name>75</Name>
+      <Name>Three</Name>
       <Variable>
         <Type>ContentCategory</Type>
         <Name>LifeIconInstance.ContentCategoryState</Name>
@@ -283,7 +283,7 @@
       </Variable>
     </State>
     <State>
-      <Name>100</Name>
+      <Name>Four</Name>
       <Variable>
         <Type>ContentCategory</Type>
         <Name>LifeIconInstance.ContentCategoryState</Name>

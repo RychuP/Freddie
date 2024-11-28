@@ -3,8 +3,15 @@
     "GLUE"
   ],
   "Source": "GLUE",
-  "CreatedByOtherEntities": true,
   "Is2D": true,
+  "ReferencedFiles": [
+    {
+      "Name": "Entities/Projectiles/ProjectileAnimations.achx",
+      "IsSharedStatic": true,
+      "RuntimeType": "FlatRedBall.Graphics.Animation.AnimationChainList",
+      "ProjectsToExcludeFrom": []
+    }
+  ],
   "CustomVariables": [
     {
       "Properties": [
@@ -40,17 +47,10 @@
       "SetByDerived": true
     }
   ],
-  "Properties": [
-    {
-      "Name": "ImplementsICollidable",
-      "Value": true,
-      "Type": "bool"
-    }
-  ],
   "NamedObjects": [
     {
-      "InstanceName": "AxisAlignedRectangleInstance",
-      "SourceClassType": "FlatRedBall.Math.Geometry.AxisAlignedRectangle",
+      "InstanceName": "SpriteInstance",
+      "SourceClassType": "FlatRedBall.Sprite",
       "Properties": [
         {
           "Name": "AssociateWithFactory",
@@ -60,25 +60,32 @@
       ],
       "InstructionSaves": [
         {
-          "Type": "float",
-          "Member": "Height",
-          "Value": 32.0,
+          "Type": "AnimationChainList",
+          "Member": "AnimationChains",
+          "Value": "ProjectileAnimations",
+          "Time": 0.0
+        },
+        {
+          "Type": "string",
+          "Member": "CurrentChainName",
+          "Value": "ProjectileSpawner",
           "Time": 0.0
         },
         {
           "Type": "float",
-          "Member": "Width",
-          "Value": 32.0,
+          "Member": "TextureScale",
+          "Value": 1.0,
           "Time": 0.0
         }
       ],
       "SourceType": 2,
-      "SourceFile": "AxisAlignedRectangle",
-      "HasPublicProperty": true,
+      "SourceFile": "Sprite",
+      "SetByDerived": true,
       "AttachToContainer": true,
       "GenerateTimedEmit": true
     }
   ],
-  "Name": "Entities\\TestCollision",
-  "CustomClassesForExport": []
+  "Name": "Entities\\Spawners\\ProjectileSpawners\\ProjectileSpawner",
+  "CustomClassesForExport": [],
+  "IsAbstract": true
 }

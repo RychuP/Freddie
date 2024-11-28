@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="75" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="26">
  <tileset firstgid="1" source="../../Freddie.tsx"/>
- <tileset firstgid="501" source="../../StandardTileset.tsx"/>
+ <tileset firstgid="541" source="../../StandardTileset.tsx"/>
  <layer id="4" name="SkyLayer" width="75" height="27" tintcolor="#ffffff">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAACu3DMQ0AAAwDoE5q/Zuoin2Q0Euqqqqqqqqqqr4f3L/wxqQfAAA=
@@ -24,40 +24,64 @@
  </layer>
  <layer id="1" name="GameplayLayer" width="75" height="27" visible="0" opacity="0.5" tintcolor="#ffffff">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu3WsQrAIAwA0fr/3+veoXQR0VOEBLmDjLbhDWItj4Fq+cbmacXTiqcVTyueVjyteFrxtOJpxdOKpxVPK55WPK14J63+b/XmhqKtRmeyOUfvQ6yy+EVbtXtotVY2o3Yvm6cVTyueVryRVdY7Nqrd982K4el/RM4LAtEnYaQfAAA=
+   H4sIAAAAAAAACu3WQQrAIAwAweI//P83eyi9iOgqQoLsQo62YQ5iLY+BavnG5mnF04qnFU8rnlY8rXha8bTiacXTiqcVTyueVjyteCet/m/15oairUZnsjlH70OssvhFW7V7aLVWNqN2L5unFU8rnla8kVXWOzaq3ffNiuHpf0TOCyhesgikHwAA
   </data>
  </layer>
  <objectgroup id="1" name="ObjectsLayer">
-  <object id="3" gid="598" x="112" y="384" width="16" height="16"/>
-  <object id="4" gid="598" x="144" y="384" width="16" height="16"/>
-  <object id="8" gid="598" x="176" y="384" width="16" height="16"/>
-  <object id="10" gid="602" x="208" y="416" width="16" height="16"/>
-  <object id="11" gid="602" x="224" y="416" width="16" height="16">
+  <object id="3" gid="638" x="112" y="384" width="16" height="16"/>
+  <object id="4" gid="638" x="144" y="384" width="16" height="16"/>
+  <object id="8" gid="638" x="176" y="384" width="16" height="16"/>
+  <object id="10" gid="642" x="208" y="416" width="16" height="16"/>
+  <object id="11" gid="642" x="224" y="416" width="16" height="16">
    <properties>
     <property name="StartDelay" type="float" value="0.3"/>
    </properties>
   </object>
-  <object id="12" gid="602" x="240" y="416" width="16" height="16">
+  <object id="12" gid="642" x="240" y="416" width="16" height="16">
    <properties>
     <property name="StartDelay" type="float" value="0.6"/>
    </properties>
   </object>
-  <object id="13" gid="602" x="256" y="416" width="16" height="16">
+  <object id="13" gid="642" x="256" y="416" width="16" height="16">
    <properties>
     <property name="StartDelay" type="float" value="0.9"/>
    </properties>
   </object>
-  <object id="14" gid="602" x="272" y="416" width="16" height="16">
+  <object id="14" gid="642" x="272" y="416" width="16" height="16">
    <properties>
     <property name="StartDelay" type="float" value="1.2"/>
    </properties>
   </object>
-  <object id="18" gid="603" x="304" y="304" width="16" height="16"/>
-  <object id="19" gid="603" x="320" y="304" width="16" height="16"/>
-  <object id="20" gid="603" x="336" y="304" width="16" height="16"/>
-  <object id="21" gid="603" x="352" y="304" width="16" height="16"/>
-  <object id="22" gid="603" x="368" y="304" width="16" height="16"/>
-  <object id="23" name="GameStart" gid="569" x="48" y="416" width="16" height="16"/>
-  <object id="24" type="PitCollision" x="249.5" y="452.5" width="185.5" height="19"/>
+  <object id="18" gid="643" x="304" y="304" width="16" height="16">
+   <properties>
+    <property name="Direction" value="Down"/>
+    <property name="StartDelay" type="float" value="6"/>
+   </properties>
+  </object>
+  <object id="19" gid="643" x="320" y="304" width="16" height="16">
+   <properties>
+    <property name="Direction" value="Down"/>
+    <property name="StartDelay" type="float" value="4.5"/>
+   </properties>
+  </object>
+  <object id="20" gid="643" x="336" y="304" width="16" height="16">
+   <properties>
+    <property name="Direction" value="Down"/>
+    <property name="StartDelay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="21" gid="643" x="352" y="304" width="16" height="16">
+   <properties>
+    <property name="Direction" value="Down"/>
+    <property name="StartDelay" type="float" value="1.5"/>
+   </properties>
+  </object>
+  <object id="22" gid="643" x="368" y="304" width="16" height="16">
+   <properties>
+    <property name="Direction" value="Down"/>
+   </properties>
+  </object>
+  <object id="23" name="GameStart" gid="609" x="48" y="416" width="16" height="16"/>
+  <object id="24" name="Pit1" type="Pit" x="249.5" y="452.5" width="185.5" height="19"/>
  </objectgroup>
 </map>

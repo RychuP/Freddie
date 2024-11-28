@@ -10,7 +10,7 @@ using FlatRedBall.Graphics.Particle;
 using FlatRedBall.Math.Geometry;
 using Microsoft.Xna.Framework;
 
-namespace Freddie.Entities.Spawners
+namespace Freddie.Entities.Spawners.ProjectileSpawners
 {
     public partial class ProjectileSpawner
     {
