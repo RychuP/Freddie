@@ -11,6 +11,19 @@
       "Properties": [
         {
           "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "SpawnDelay",
+      "DefaultValue": 1.8,
+      "SetByDerived": true,
+      "DefinedByBase": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
           "Value": "string",
           "Type": "String"
         }

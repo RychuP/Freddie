@@ -45,6 +45,17 @@
       ],
       "Name": "Z",
       "SetByDerived": true
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "float",
+          "Type": "String"
+        }
+      ],
+      "Name": "SpawnDelay",
+      "SetByDerived": true
     }
   ],
   "NamedObjects": [

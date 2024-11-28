@@ -16,6 +16,7 @@ namespace Freddie.Entities.Spawners.ProjectileSpawners;
 public partial class BlueFireSpawner
 {
     bool _isActive;
+    double _lastSpawnTime;
 
     /// <summary>
     /// Initialization logic which is executed only one time for this Entity (unless the Entity is pooled).
@@ -38,7 +39,7 @@ public partial class BlueFireSpawner
 
     private void CustomActivity()
     {
-        
+        SpawnActivity();
     }
 
     private void CustomDestroy()
@@ -66,17 +67,11 @@ public partial class BlueFireSpawner
         };
     }
 
-    void DelaySpawnStart()
+    async void DelaySpawnStart()
     {
-        var instr = new DelegateInstruction(StartSpawn)
-        {
-            TimeToExecute = TimeManager.CurrentScreenTime + StartDelay
-        };
-        Instructions.Add(instr);
-    }
-
-    void StartSpawn()
-    {
+        _isActive = false;
+        _lastSpawnTime = 0;
+        await TimeManager.DelaySeconds(StartDelay);
         _isActive = true;
         SpawnProjectile();
     }
@@ -87,6 +82,12 @@ public partial class BlueFireSpawner
         var pos = new Vector3(X, Y, z);
         var projectile = Factories.BlueFireFactory.CreateNew(pos);
         projectile.Direction = Direction;
-        projectile.Destroyed += () => SpawnProjectile();
+        _lastSpawnTime = TimeManager.CurrentScreenTime;
+    }
+
+    void SpawnActivity()
+    {
+        if (_isActive && TimeManager.CurrentScreenTime > _lastSpawnTime + SpawnDelay)
+            SpawnProjectile();
     }
 }

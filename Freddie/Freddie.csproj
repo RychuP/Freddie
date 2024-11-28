@@ -411,8 +411,8 @@
     <Compile Include="Entities\Spawners\ProjectileSpawners\BlueFireSpawner.Generated.cs">
       <DependentUpon>BlueFireSpawner.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entities\Traps\Fire.cs" />
-    <Compile Include="Entities\Traps\Fire.Generated.cs">
+    <Compile Include="Entities\Traps\FireTrap.cs" />
+    <Compile Include="Entities\Traps\FireTrap.Generated.cs">
       <DependentUpon>Fire.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Spawners\ProjectileSpawners\ProjectileSpawner.cs" />
@@ -436,7 +436,7 @@
     <Compile Include="Factories\BlueFireSpawnerFactory.Generated.cs" />
     <Compile Include="Factories\CoinFactory.Generated.cs" />
     <Compile Include="Factories\DoorFactory.Generated.cs" />
-    <Compile Include="Factories\FireFactory.Generated.cs" />
+    <Compile Include="Factories\FireTrapFactory.Generated.cs" />
     <Compile Include="Factories\FlagFactory.Generated.cs" />
     <Compile Include="Factories\PitFactory.Generated.cs" />
     <Compile Include="Factories\PlayerFactory.Generated.cs" />

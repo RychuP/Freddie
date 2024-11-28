@@ -34,16 +34,17 @@ public partial class GameScreen
         SetInitialValues();
         SetZLevels();
         InitializeTraps();
+        SpawnPlayer();
     }
 
     private void CustomActivity(bool firstTimeCalled)
     {
-        //if (GuiManager.Cursor.PrimaryClick)
-        //{
-        //    var z = Player.Z;
-        //    Player.Position = GuiManager.Cursor.WorldPosition.ToVector3();
-        //    Player.Z = z;
-        //}
+        if (GuiManager.Cursor.PrimaryClick)
+        {
+            var z = Player.Z;
+            Player.Position = GuiManager.Cursor.WorldPosition.ToVector3();
+            Player.Z = z;
+        }
         //Debug();
     }
 
@@ -96,6 +97,12 @@ public partial class GameScreen
         posObject.Z = (int)level;
     }
 
+    void SpawnPlayer()
+    {
+        Player.Respawn(CheckpointList.FindByName("GameStart"));
+        MainCamera.ApplyTarget(MainCamera.GetTarget(), lerpSmooth: false);
+    }
+
     /// <summary>
     /// Initializes traps after the custom properties from Tiled have been set.
     /// </summary>
@@ -103,9 +110,9 @@ public partial class GameScreen
     {
         foreach (var trap in TrapList)
         {
-            if (trap is Fire fire)
+            if (trap is FireTrap fireTrap)
             {
-                fire.DelayAnimationStart();
+                fireTrap.InitializeFromTiled();
             }
         }
 

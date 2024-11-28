@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework;
 
 namespace Freddie.Entities.Traps;
 
-public partial class Fire
+public partial class FireTrap
 {
     /// <summary>
     /// Initialization logic which is executed only one time for this Entity (unless the Entity is pooled).
@@ -39,6 +39,14 @@ public partial class Fire
     private static void CustomLoadStaticContent(string contentManagerName)
     {
         
+    }
+
+    public async void InitializeFromTiled()
+    {
+        SpriteInstance.Animate = false;
+        SpriteInstance.CurrentFrameIndex = 0;
+        await TimeManager.DelaySeconds(StartDelay);
+        SpriteInstance.Animate = true;
     }
 
     public void DelayAnimationStart()

@@ -517,6 +517,52 @@
       "GenerateTimedEmit": true
     },
     {
+      "InstanceName": "PlayerVsProjectile",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.Player, Entities.Projectiles.Projectile>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "bool"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PlayerList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "ProjectileList",
+          "Type": "String"
+        },
+        {
+          "Name": "IsDealDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "IsDestroySecondOnDamageChecked",
+          "Value": true,
+          "Type": "bool"
+        },
+        {
+          "Name": "SecondCollisionDestroyType",
+          "Value": 1,
+          "Type": "CollisionDestroyType"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.Player, Entities.Projectiles.Projectile>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
       "InstanceName": "ProjectileVsTrap",
       "SourceClassType": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.Projectiles.Projectile, Entities.Traps.Trap>",
       "Properties": [

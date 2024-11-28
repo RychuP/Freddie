@@ -171,6 +171,6 @@
       "DefinedByBase": true
     }
   ],
-  "Name": "Entities\\Traps\\Fire",
+  "Name": "Entities\\Traps\\FireTrap",
   "CustomClassesForExport": []
 }

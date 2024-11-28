@@ -135,7 +135,7 @@
       "Name": "Entities\\Spawners\\ProjectileSpawners\\ProjectileSpawner"
     },
     {
-      "Name": "Entities\\Traps\\Fire"
+      "Name": "Entities\\Traps\\FireTrap"
     },
     {
       "Name": "Entities\\Traps\\Pit"

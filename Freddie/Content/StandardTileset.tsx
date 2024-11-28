@@ -15,7 +15,7 @@
  <tile id="68" type="Flag"/>
  <tile id="96" type="Ladder"/>
  <tile id="97" type="Coin"/>
- <tile id="101" type="Fire">
+ <tile id="101" type="FireTrap">
   <properties>
    <property name="StartDelay" type="float" value="0"/>
   </properties>
